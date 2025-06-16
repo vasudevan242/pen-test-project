@@ -1,1 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="fonts/pentest.css" />
+    <link rel="stylesheet" href="style.css?ver=1111q" />
+  </head>
+  <body>
+    <div class="wrapper">
 
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid justify-content-between">
+          <div class="d-flex justify-content-start">
+            <a class="navbar-brand" href="index.html">
+              <img id="logo" src="images/logo.svg" alt="Pentest" />
+            </a>
+
+            <a class="navbar-brand" href="#" style="margin-right: 25px">
+              <img id="sidebar-bar" src="images/sidebar.svg" alt="" />
+            </a>
+
+            <form class="d-flex" role="search">
+              <div class="input-group search-bar">
+                <span class="search-icon">
+                  <img src="images/searchicon.svg" alt="" />
+                </span>
+
+                <input
+                  type="text"
+                  class="form-control search-input"
+                  placeholder="Search for anything with AI..."
+                  aria-label="Example text with two button addons"
+                />
+
+                <span class="search-filter-icon">
+                  <img src="images/filtericon.svg" alt="" />
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <ul class="navbar-nav header-top align-items-center gap-2">
+
+            <li>
+              <a data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Help" class="text-decoration-none" aria-current="page" href="#">
+                <i class="pentest-Buttonblueprint fs-1 top-bar-icon"></i> 
+              </a>
+            </li>
+
+            <li class="me-2" style="position: relative;">
+              <div class="topbar-border">
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Notifications" class="text-decoration-none" aria-current="page" href="#">
+                  <i class="pentest-Icon_36x36 fs-1 top-bar-icon" ></i> 
+                </a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+                aria-expanded="false"
+              >
+                <div class="d-flex">
+                  <span class="d-flex flex-column text-end">
+                    <span class="my-0 fw-bold">Paraveer singh</span>
+                    <span class="my-0 text-sm">Security analyst</span>
+                  </span>
+
+                  <span class="account-user-avatar">
+                    <img
+                      src="images/profile.png"
+                      alt="user-image"
+                      width="32"
+                      height="32"
+                    />
+                  </span>
+
+                  <span>
+                    <img
+                      src="images/Expand_right.svg"
+                      alt="dropdown-arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </span>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="d-flex flex-column align-items-start">
+                  <span class="my-0 fw-bold">Paraveer singh</span>
+                  <span class="my-0 text-sm">Paraveersingh@harman.com</span>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/profile-setting.svg" alt="logout-icon" />
+                      <span class="ms-2">Profile</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/settings.svg" alt="logout-icon" />
+                      <span class="ms-2">Settings</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center text-danger">
+                      <img src="images/signout.svg" alt="logout-icon" />
+                      <span class="ms-2">Sign out</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+          
+        </div>
+      </nav>
+
+      <div class="sidebar bg-light position-fixed">
+        <div class="container mt-2">
+          <ul class="nav flex-column sidebar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">
+                <div>
+                  <i class="pentest-dashb-white"></i>
+                  <span>Dashboard</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-analytics"></i>
+                  <span>Analytics</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">
+                <div>
+                  <i class="pentest-projects"></i>
+                  <span>Projects</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="customers.html">
+                <i class="pentest-customers"></i>
+                <span>Customers</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="users.html">
+                <div>
+                  <i class="pentest-users"></i>
+                  <span>Users</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="vulnerbility.html">
+                <div>
+                  <i class="pentest-vulnerbility"></i>
+                  <span>Vulnerability DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-narrative"></i>
+                  <span>Narrative DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="calendar.html">
+                <div>
+                  <i class="pentest-calendar"></i>
+                  <span>Schedule</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">
+                <div>
+                  <i class="pentest-teams"></i>
+                  <span>Teams</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-sidebar-seetings"></i>
+                  <span>Settings</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-help"></i>
+                  <span>Help</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">
+                <div>
+                  <i class="pentest-about"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="d-flex flex-column align-items-start" id="footer-logo">
+              <img class="me-2" src="images/footer-logo.svg" alt="" />
+              <span class="text-muted" style="font-size: 14px; color: #808284"
+                >Version 1.0</span
+              >
+
+              <span class="text-muted mt-2 mb-2" style="font-size: 12px"
+                >&copy; 2025 Harman International</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+
+        <div class="container-fluid">
+          <div class="d-flex mb-3">
+            <h5>Dashboard</h5>
+            <div class="ms-auto">
+              <div class="dropdown">
+                <div
+                  class="btn-cal dropdown-toggle d-flex justify-content-between align-items-center"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span> Today </span>
+                  <img src="images/calender.svg" alt="dropdown-arrow" />
+                </div>
+
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Today</a></li>
+                  <li><a class="dropdown-item" href="#">30 days</a></li>
+                  <li><a class="dropdown-item" href="#">90 days</a></li>
+                  <li><a class="dropdown-item" href="#">180 days</a></li>
+                  <li><a class="dropdown-item" href="#">365 days</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4 pe-0">
+              <div class="card mb-4 slider-view">
+                <img
+                  src="images/BannerImage.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    PENTEST AI transforms cybersecurity workflows by automating
+                    and streamlining penetration testing with AI intelligence.
+                  </p>
+                  <a href="#" class="btn btn-outline-secondary">Know More</a>
+                </div>
+              </div>
+
+              <div class="card card-view p-3 mb-4">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h5 class="mb-0">Project Status</h5>
+                  <span class="icon-downdload">
+                    <img src="images/download.svg" alt="" />
+                  </span>
+                </div>
+
+                <div class="row align-items-center py-4">
+                  <div class="col-6">
+                    <div class="mb-3">
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <span class="fw-semibold">Ongoing</span>
+                        <span class="fw-bold text-secondary">55</span>
+                      </div>
+                      <div class="progress" style="height: 6px">
+                        <div
+                          class="progress-bar bg-primary"
+                          style="width: 55%"
+                        ></div>
+                        <div
+                          class="progress-bar bg-primary bg-opacity-10"
+                          style="width: 45%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <span class="fw-semibold">Overrun</span>
+                        <span class="fw-bold text-secondary">30</span>
+                      </div>
+                      <div class="progress" style="height: 6px">
+                        <div
+                          class="progress-bar bg-warning"
+                          style="width: 30%"
+                        ></div>
+                        <div
+                          class="progress-bar bg-warning bg-opacity-10"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <span class="fw-semibold">Completed</span>
+                        <span class="fw-bold text-secondary">15</span>
+                      </div>
+                      <div class="progress" style="height: 6px">
+                        <div
+                          class="progress-bar bg-success"
+                          style="width: 15%"
+                        ></div>
+                        <div
+                          class="progress-bar bg-success bg-opacity-10"
+                          style="width: 85%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 d-flex justify-content-center">
+                    <!-- Donut Chart SVG -->
+                    <svg width="120" height="120" viewBox="0 0 120 120">
+                      <circle
+                        cx="60"
+                        cy="60"
+                        r="48"
+                        stroke="#f4f6f8"
+                        stroke-width="16"
+                        fill="none"
+                      />
+                      <!-- Ongoing: 55% -->
+                      <circle
+                        cx="60"
+                        cy="60"
+                        r="48"
+                        stroke="#4285f4"
+                        stroke-width="16"
+                        fill="none"
+                        stroke-dasharray="301.59"
+                        stroke-dashoffset="135.72"
+                        stroke-linecap="round"
+                        transform="rotate(-90 60 60)"
+                      />
+                      <!-- Overrun: 30% -->
+                      <circle
+                        cx="60"
+                        cy="60"
+                        r="48"
+                        stroke="#ffc107"
+                        stroke-width="16"
+                        fill="none"
+                        stroke-dasharray="301.59"
+                        stroke-dashoffset="211.11"
+                        stroke-linecap="round"
+                        transform="rotate(-90 60 60)"
+                      />
+                      <!-- Completed: 15% -->
+                      <circle
+                        cx="60"
+                        cy="60"
+                        r="48"
+                        stroke="#198754"
+                        stroke-width="16"
+                        fill="none"
+                        stroke-dasharray="301.59"
+                        stroke-dashoffset="256.35"
+                        stroke-linecap="round"
+                        transform="rotate(-90 60 60)"
+                      />
+                      <text
+                        x="60"
+                        y="68"
+                        text-anchor="middle"
+                        font-size="32"
+                        fill="#222"
+                        font-weight="bold"
+                      >
+                        100
+                      </text>
+                      <text
+                        x="60"
+                        y="88"
+                        text-anchor="middle"
+                        font-size="16"
+                        fill="#888"
+                      >
+                        Total
+                      </text>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-8">
+              <div class="customer-overview mb-3">
+                <div
+                  class="customer-view-title d-flex justify-content-between align-items-center mb-2"
+                >
+                  <h5>Customer Overview</h5>
+                  <span class="icon-downdload">
+                    <img src="images/download.svg" alt="" />
+                  </span>
+                </div>
+
+                <div class="customer-view-cards">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div
+                        class="h-100"
+                        style="background-color: #f8f8f8; border-radius: 10px"
+                      >
+                        <div class="card card-view p-2">
+                          <div class="d-flex align-items-center mb-2">
+                            <span class="fs-2 fw-bold me-2">200</span>
+                            <span class="fs-6 fw-bold">Total Customers</span>
+                          </div>
+
+                          <div class="progress mb-2" style="height: 8px">
+                            <div
+                              class="progress-bar bg-danger"
+                              style="width: 5%"
+                            ></div>
+                            <div
+                              class="progress-bar bg-primary"
+                              style="width: 20%"
+                            ></div>
+                            <div
+                              class="progress-bar bg-success"
+                              style="width: 75%"
+                            ></div>
+                          </div>
+                        </div>
+
+                        <div class="d-flex justify-content-evenly p-1">
+                          <div
+                            class="pad-c d-flex flex-column justify-content-center"
+                          >
+                            <h4>150</h4>
+                            <span class="text-muted small">
+                              <span class="circle-v bg-success"></span> Active
+                            </span>
+                          </div>
+
+                          <div
+                            class="pad-c pad-c-b d-flex flex-column justify-content-center"
+                          >
+                            <h4>40</h4>
+                            <span class="text-muted small ms-1"
+                              ><span class="circle-v bg-primary"></span>
+                              Onboarded</span
+                            >
+                          </div>
+
+                          <div
+                            class="pad-c d-flex flex-column justify-content-center"
+                          >
+                            <h4>10</h4>
+                            <span class="text-muted small ms-1"
+                              ><span class="circle-v bg-danger"></span> High
+                              Risk</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="card card-view h-100 p-1 text-center">
+                            <div class="fw-bold fs-7 mb-1">
+                              Active Rate
+                              <span
+                                data-bs-toggle="tooltip"
+                                title="Customers with ongoing projects"
+                              >
+                                <img src="images/info.svg" alt="" />
+                              </span>
+                            </div>
+
+                            <div
+                              class="mx-auto my-2"
+                              style="width: 60px; height: 60px"
+                            >
+                              <svg width="60" height="60">
+                                <circle
+                                  cx="30"
+                                  cy="30"
+                                  r="26"
+                                  stroke="#e9ecef"
+                                  stroke-width="6"
+                                  fill="none"
+                                />
+                                <circle
+                                  cx="30"
+                                  cy="30"
+                                  r="26"
+                                  stroke="#198754"
+                                  stroke-width="6"
+                                  fill="none"
+                                  stroke-dasharray="163.36"
+                                  stroke-dashoffset="40.84"
+                                  stroke-linecap="round"
+                                  transform="rotate(-90 30 30)"
+                                />
+                                <text
+                                  x="30"
+                                  y="36"
+                                  text-anchor="middle"
+                                  font-size="18"
+                                  fill="#198754"
+                                  font-weight="bold"
+                                >
+                                  75%
+                                </text>
+                              </svg>
+                            </div>
+
+                            <div class="small text-muted fs-7">
+                              Customers with ongoing projects
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <div class="card card-view h-100 p-1 text-center">
+                            <div class="fw-bold fs-7 mb-1">
+                              Onboarding
+                              <span
+                                data-bs-toggle="tooltip"
+                                title="Completed onboarding process"
+                              >
+                                <img src="images/info.svg" alt="" />
+                              </span>
+                            </div>
+                            <div
+                              class="mx-auto my-2"
+                              style="width: 60px; height: 60px"
+                            >
+                              <svg width="60" height="60">
+                                <circle
+                                  cx="30"
+                                  cy="30"
+                                  r="26"
+                                  stroke="#e9ecef"
+                                  stroke-width="6"
+                                  fill="none"
+                                />
+                                <circle
+                                  cx="30"
+                                  cy="30"
+                                  r="26"
+                                  stroke="#0d6efd"
+                                  stroke-width="6"
+                                  fill="none"
+                                  stroke-dasharray="163.36"
+                                  stroke-dashoffset="130.68"
+                                  stroke-linecap="round"
+                                  transform="rotate(-90 30 30)"
+                                />
+                                <text
+                                  x="30"
+                                  y="36"
+                                  text-anchor="middle"
+                                  font-size="18"
+                                  fill="#0d6efd"
+                                  font-weight="bold"
+                                >
+                                  20%
+                                </text>
+                              </svg>
+                            </div>
+                            <div class="small text-muted fs-7">
+                              Completed onboarding process
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4">
+                          <div class="card card-view h-100 p-1 text-center">
+                            <div class="fw-bold fs-7 mb-1">
+                              Risk Rate
+                              <span
+                                data-bs-toggle="tooltip"
+                                title="Customers with critical findings"
+                              >
+                                <img src="images/info.svg" alt="" />
+                              </span>
+                            </div>
+                            <div
+                              class="mx-auto my-2"
+                              style="width: 60px; height: 60px"
+                            >
+                              <svg width="60" height="60">
+                                <circle
+                                  cx="30"
+                                  cy="30"
+                                  r="26"
+                                  stroke="#e9ecef"
+                                  stroke-width="6"
+                                  fill="none"
+                                />
+                                <circle
+                                  cx="30"
+                                  cy="30"
+                                  r="26"
+                                  stroke="#dc3545"
+                                  stroke-width="6"
+                                  fill="none"
+                                  stroke-dasharray="163.36"
+                                  stroke-dashoffset="155.19"
+                                  stroke-linecap="round"
+                                  transform="rotate(-90 30 30)"
+                                />
+                                <text
+                                  x="30"
+                                  y="36"
+                                  text-anchor="middle"
+                                  font-size="18"
+                                  fill="#dc3545"
+                                  font-weight="bold"
+                                >
+                                  5%
+                                </text>
+                              </svg>
+                            </div>
+                            <div class="small text-muted fs-7">
+                              Customers with critical findings
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="customer-project">
+                <div class="row">
+                  <div class="col-md-6 pe-0">
+                    <div class="card card-view h-100 p-3">
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-2"
+                      >
+                        <h5 class="mb-0">Project Approved Status</h5>
+                        <span class="icon-downdload">
+                          <img src="images/download.svg" alt="" />
+                        </span>
+                      </div>
+
+                      <div
+                        class="rounded p-3 mb-3"
+                        style="background-color: #f8f8f8"
+                      >
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <span class="fw-semibold">Approval Rate</span>
+                          <span class="fw-bold fs-5">75%</span>
+                        </div>
+
+                        <div class="progress" style="height: 6px">
+                          <div
+                            class="progress-bar bg-primary"
+                            style="width: 75%"
+                          ></div>
+                        </div>
+                      </div>
+
+                      <div class="row mb-3">
+                        <div class="col pe-0">
+                          <div class="bg-primary bg-opacity-10 rounded p-2">
+                            <div class="d-flex justify-content-between mb-2">
+                              <div class="fs-7">Total</div>
+
+                              <div>
+                                <img src="images/total.svg" alt="" />
+                              </div>
+                            </div>
+
+                            <div class="fw-bold fs-5">100</div>
+                          </div>
+                        </div>
+                        <div class="col pl-0 pe-0">
+                          <div class="bg-success bg-opacity-10 rounded p-2">
+                            <div
+                              class="d-flex justify-content-evenly align-items-center mb-2"
+                            >
+                              <div class="fs-7">Approved</div>
+
+                              <div>
+                                <img src="images/approved.svg" alt="" />
+                              </div>
+                            </div>
+
+                            <div class="fw-bold fs-5">100</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="bg-warning bg-opacity-10 rounded p-2">
+                            <div
+                              class="d-flex mb-2 justify-content-evenly align-items-center"
+                            >
+                              <div class="fs-7">Pending</div>
+                              <div>
+                                <img src="images/pending.svg" alt="" />
+                              </div>
+                            </div>
+
+                            <div class="fw-bold fs-5">100</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="px-2">
+                        <svg width="100%" height="120" viewBox="0 0 200 120">
+                          <!-- Y axis labels -->
+                          <text x="0" y="110" font-size="10" fill="#aaa">
+                            0
+                          </text>
+                          <text x="0" y="80" font-size="10" fill="#aaa">
+                            10
+                          </text>
+                          <text x="0" y="50" font-size="10" fill="#aaa">
+                            20
+                          </text>
+                          <text x="0" y="20" font-size="10" fill="#aaa">
+                            30
+                          </text>
+                          <text x="0" y="5" font-size="10" fill="#aaa">40</text>
+                          <!-- Bars: x, y, width, height -->
+                          <!-- Mon -->
+                          <rect
+                            x="30"
+                            y="70"
+                            width="20"
+                            height="40"
+                            fill="#ffc107"
+                          />
+                          <rect
+                            x="30"
+                            y="50"
+                            width="20"
+                            height="20"
+                            fill="#198754"
+                          />
+                          <!-- Tue -->
+                          <rect
+                            x="70"
+                            y="50"
+                            width="20"
+                            height="60"
+                            fill="#ffc107"
+                          />
+                          <rect
+                            x="70"
+                            y="30"
+                            width="20"
+                            height="20"
+                            fill="#198754"
+                          />
+                          <!-- Wed -->
+                          <rect
+                            x="110"
+                            y="30"
+                            width="20"
+                            height="80"
+                            fill="#ffc107"
+                          />
+                          <rect
+                            x="110"
+                            y="10"
+                            width="20"
+                            height="20"
+                            fill="#198754"
+                          />
+                          <!-- Thu -->
+                          <rect
+                            x="150"
+                            y="10"
+                            width="20"
+                            height="100"
+                            fill="#ffc107"
+                          />
+                          <rect
+                            x="150"
+                            y="0"
+                            width="20"
+                            height="10"
+                            fill="#198754"
+                          />
+                          <!-- X axis labels -->
+                          <text
+                            x="40"
+                            y="115"
+                            font-size="12"
+                            fill="#888"
+                            text-anchor="middle"
+                          >
+                            Mon
+                          </text>
+                          <text
+                            x="80"
+                            y="115"
+                            font-size="12"
+                            fill="#888"
+                            text-anchor="middle"
+                          >
+                            Tue
+                          </text>
+                          <text
+                            x="120"
+                            y="115"
+                            font-size="12"
+                            fill="#888"
+                            text-anchor="middle"
+                          >
+                            Wed
+                          </text>
+                          <text
+                            x="160"
+                            y="115"
+                            font-size="12"
+                            fill="#888"
+                            text-anchor="middle"
+                          >
+                            Thu
+                          </text>
+                        </svg>
+                        <div class="d-flex justify-content-center gap-3 mt-2">
+                          <span class="d-flex align-items-center">
+                            <span
+                              class="rounded-circle d-inline-block me-1"
+                              style="
+                                width: 10px;
+                                height: 10px;
+                                background: #198754;
+                              "
+                            ></span>
+                            <span class="small text-muted">Approved</span>
+                          </span>
+                          <span class="d-flex align-items-center">
+                            <span
+                              class="rounded-circle d-inline-block me-1"
+                              style="
+                                width: 10px;
+                                height: 10px;
+                                background: #ffc107;
+                              "
+                            ></span>
+                            <span class="small text-muted">Pending</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Recent Projects Card -->
+                  <div class="col-md-6">
+                    <div class="card card-view h-100 p-3">
+                      <h5 class="mb-3">Recent Projects</h5>
+
+                      <ul class="list-group list-group-flush">
+                        <li
+                          class="list-group-item d-flex align-items-center px-1"
+                        >
+                          <span
+                            class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                          >
+                            <img src="images/folder.svg" alt="" />
+                          </span>
+
+                          <div class="w-100">
+                            <div
+                              class="d-flex align-items-center justify-content-between"
+                            >
+                              <div>
+                                <span class="fw-semibold">Harman HRMS</span>
+                                <span class="text-muted small d-block"
+                                  >Harman</span
+                                >
+                              </div>
+
+                              <div>
+                                <span
+                                  class="badge bg-primary bg-opacity-10 text-primary"
+                                  >Ongoing</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li
+                          class="list-group-item d-flex align-items-center px-1"
+                        >
+                          <span
+                            class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                          >
+                            <img src="images/folder.svg" alt="" />
+                          </span>
+
+                          <div class="w-100">
+                            <div
+                              class="d-flex align-items-center justify-content-between"
+                            >
+                              <div>
+                                <span class="fw-semibold">Harman HRMS</span>
+                                <span class="text-muted small d-block"
+                                  >Harman</span
+                                >
+                              </div>
+
+                              <div>
+                                <span
+                                  class="badge bg-primary bg-opacity-10 text-primary"
+                                  >Ongoing</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li
+                          class="list-group-item d-flex align-items-center px-1"
+                        >
+                          <span
+                            class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                          >
+                            <img src="images/folder.svg" alt="" />
+                          </span>
+
+                          <div class="w-100">
+                            <div
+                              class="d-flex align-items-center justify-content-between"
+                            >
+                              <div>
+                                <span class="fw-semibold">Harman HRMS</span>
+                                <span class="text-muted small d-block"
+                                  >Harman</span
+                                >
+                              </div>
+
+                              <div>
+                                <span
+                                  class="badge bg-success bg-opacity-10 text-success"
+                                  >Completed</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li
+                          class="list-group-item d-flex align-items-center px-1"
+                        >
+                          <span
+                            class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                          >
+                            <img src="images/folder.svg" alt="" />
+                          </span>
+
+                          <div class="w-100">
+                            <div
+                              class="d-flex align-items-center justify-content-between"
+                            >
+                              <div>
+                                <span class="fw-semibold">Harman HRMS</span>
+                                <span class="text-muted small d-block"
+                                  >Harman</span
+                                >
+                              </div>
+
+                              <div>
+                                <span
+                                  class="badge bg-success bg-opacity-10 text-success"
+                                  >Completed</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+
+                        <li
+                          class="list-group-item d-flex align-items-center px-1"
+                        >
+                          <span
+                            class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                          >
+                            <img src="images/folder.svg" alt="" />
+                          </span>
+
+                          <div class="w-100">
+                            <div
+                              class="d-flex align-items-center justify-content-between"
+                            >
+                              <div>
+                                <span class="fw-semibold">Harman HRMS</span>
+                                <span class="text-muted small d-block"
+                                  >Harman</span
+                                >
+                              </div>
+
+                              <div>
+                                <span
+                                  class="badge bg-success bg-opacity-10 text-success"
+                                  >Completed</span
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+
+                      <div class="text-end mt-2">
+                        <a
+                          href="#"
+                          class="text-primary text-decoration-none fw-semibold"
+                          >3 More &rarr;</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid mt-3">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card card-view h-100 p-3">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Vulnerability Insights</h5>
+                  <span class="icon-downdload">
+                    <img src="images/download.svg" alt="" />
+                  </span>
+                </div>
+
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <div class="card h-100 p-2 dashboard-in-on-border">
+                      <div
+                        class="d-flex justify-content-between align-items-center mb-2"
+                      >
+                        <span class="fw-bold">Total Findings</span>
+                      </div>
+
+                      <div class="d-flex">
+                        <div class="display-5 fw-bold">93</div>
+
+                        <div
+                          class="text-muted mb-2 p-1 d-flex flex-column justify-content-center"
+                        >
+                          <span>
+                            <span class="fw-bold fs-6 text-success">
+                              + 37.8
+                            </span>
+                            <span class="fs-7">this month</span>
+                          </span>
+                          <span class="fs-7 fw-bold">
+                            Across all projects
+                          </span>
+                        </div>
+                      </div>
+
+                      <div
+                        class="text-success small fw-semibold d-flex align-items-center"
+                      >
+                        <img src="images/approved-2.svg" alt="" class="me-1" />
+                        <span> 2 Approved </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="card h-100 p-2 dashboard-in-on-border">
+                      <div class="fw-bold mb-2">Vulnerability Insights</div>
+                      <div class="d-flex align-items-center">
+                        <svg width="100" height="100" viewBox="0 0 200 200">
+                          <!-- Background circles for each arc -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="90"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          />
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="70"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          />
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="50"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          />
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="30"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          />
+                          <!-- Outer arc (purple) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="90"
+                            stroke="#551a8b"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="565.49"
+                            stroke-dashoffset="141.37"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          />
+                          <!-- Second arc (blue) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="70"
+                            stroke="#4285f4"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="439.82"
+                            stroke-dashoffset="109.95"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          />
+                          <!-- Third arc (green) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="50"
+                            stroke="#198754"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="314.16"
+                            stroke-dashoffset="78.54"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          />
+                          <!-- Inner arc (yellow) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="30"
+                            stroke="#ffc107"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="188.50"
+                            stroke-dashoffset="900"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          />
+                        </svg>
+
+                        <div class="ms-1 fs-7">
+                          <div class="mb-1">
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #6f42c1"
+                              >&nbsp;</span
+                            >
+                            <span class="small">Open</span>
+                          </div>
+
+                          <div class="mb-1">
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #0d6efd"
+                              >&nbsp;</span
+                            >
+                            <span class="small">In Progress</span>
+                          </div>
+
+                          <div class="mb-1">
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #198754"
+                              >&nbsp;</span
+                            >
+                            <span class="small">Resolved</span>
+                          </div>
+
+                          <div>
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #ffc107"
+                              >&nbsp;</span
+                            >
+                            <span class="small">Accepted</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="card p-3 dashboard-in-on-border">
+                      <div class="fw-bold mb-3">
+                        Severity Distribution Projectwise
+                      </div>
+                      <div class="table-responsive fs-7">
+                        <table
+                          class="table text-center align-middle mb-0"
+                          style="width: 100%"
+                        >
+                          <thead>
+                            <tr>
+                              <th class="border-0"></th>
+                              <th class="border-0 text-secondary fw-semibold">
+                                Critical
+                              </th>
+                              <th class="border-0 text-secondary fw-semibold">
+                                High
+                              </th>
+                              <th class="border-0 text-secondary fw-semibold">
+                                Medium
+                              </th>
+                              <th class="border-0 text-secondary fw-semibold">
+                                Low
+                              </th>
+                              <th class="border-0 text-secondary fw-semibold">
+                                Info.
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th class="text-secondary fw-bold border-0">
+                                Project A
+                              </th>
+                              <td class="bg-warning bg-opacity-50 fs-7">3</td>
+                              <td class="bg-warning bg-opacity-25 fs-7">1</td>
+                              <td
+                                class="bg-danger bg-opacity-75 text-white fs-7"
+                              >
+                                8
+                              </td>
+                              <td class="bg-warning bg-opacity-75 fs-7">6</td>
+                              <td class="bg-warning bg-opacity-50 fs-7">2</td>
+                            </tr>
+                            <tr>
+                              <th class="text-secondary fw-bold border-0">
+                                Project B
+                              </th>
+                              <td class="bg-warning bg-opacity-10 fs-7">0</td>
+                              <td class="bg-warning bg-opacity-25 fs-7">2</td>
+                              <td
+                                class="bg-danger bg-opacity-50 text-white fs-7"
+                              >
+                                5
+                              </td>
+                              <td
+                                class="bg-danger bg-opacity-75 text-white fs-7"
+                              >
+                                9
+                              </td>
+                              <td class="bg-warning bg-opacity-25 fs-7">1</td>
+                            </tr>
+                            <tr>
+                              <th class="text-secondary fw-bold border-0">
+                                Project C
+                              </th>
+                              <td class="bg-warning bg-opacity-25 fs-7">1</td>
+                              <td class="bg-warning bg-opacity-50 fs-7">3</td>
+                              <td
+                                class="bg-danger bg-opacity-75 text-white fs-7"
+                              >
+                                7
+                              </td>
+                              <td class="bg-danger text-white fs-7">12</td>
+                              <td class="bg-warning bg-opacity-75 fs-7">5</td>
+                            </tr>
+                            <tr>
+                              <th class="text-secondary fw-bold border-0">
+                                Project D
+                              </th>
+                              <td class="bg-warning bg-opacity-50 fs-7">2</td>
+                              <td class="bg-warning bg-opacity-75 fs-7">5</td>
+                              <td class="bg-danger text-white fs-7">10</td>
+                              <td
+                                class="bg-danger bg-opacity-75 text-white fs-7"
+                              >
+                                8
+                              </td>
+                              <td class="bg-warning bg-opacity-50 fs-7">3</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card card-view h-100 p-3">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Onboarding Tasks</h5>
+                  <span class="icon-downdload">
+                    <img src="images/download.svg" alt="" />
+                  </span>
+                </div>
+
+                <div class="card mb-3 p-3 dashboard-in-on-border">
+                  <div class="fw-bold mb-2">Onboarding Progress</div>
+                  <div
+                    id="mm"
+                    class="row g-2 align-items-center align-items-stretch h-100"
+                  >
+                    <div class="col-4">
+                      <div
+                        class="rounded dashboard-in-on-border p-2 h-100"
+                        style="background-color: #f8f8f8"
+                      >
+                        <div
+                          class="d-flex pt-2 justify-content-between align-items-center mb-1"
+                        >
+                          <span class="fs-7">Total Progress</span>
+                          <span class="fw-bold fs-6">66%</span>
+                        </div>
+
+                        <div class="progress" style="height: 6px">
+                          <div
+                            class="progress-bar bg-primary"
+                            style="width: 66%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class="rounded p-2 h-100 dashboard-in-on-border">
+                        <div
+                          class="d-flex mb-1 justify-content-between align-items-center"
+                        >
+                          <div class="fs-7">Completed</div>
+                          <div>
+                            <img src="images/completed.svg" alt="" />
+                          </div>
+                        </div>
+                        <div class="fw-bold fs-5">100</div>
+                      </div>
+                    </div>
+
+                    <div class="col-4">
+                      <div class="rounded p-2 h-100 dashboard-in-on-border">
+                        <div
+                          class="d-flex mb-1 justify-content-between align-items-center"
+                        >
+                          <div class="fs-7">Pending</div>
+                          <div>
+                            <img src="images/pending-2.svg" alt="" />
+                          </div>
+                        </div>
+                        <div class="fw-bold fs-5">100</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card p-3 dashboard-in-on-border">
+                  <div class="fw-bold mb-2">Pending Tasks</div>
+
+                  <div class="bg-warning bg-opacity-10 rounded">
+                    <div class="d-flex align-items-center p-2">
+                      <span class="display-6 fw-bold me-2">07</span>
+
+                      <div class="w-100">
+                        <div
+                          class="d-flex align-items-center justify-content-between"
+                        >
+                          <div>
+                            <span class="fw-semibold fs-6">Harman HRMS</span>
+                            <span class="text-muted fs-7 small d-block"
+                              >Awaiting customer action to complete.</span
+                            >
+                          </div>
+
+                          <div>
+                            <button
+                              class="btn btn-outline-warning btn-sm bg-opacity-25 dashboard-bell"
+                            >
+                              <img
+                                src="images/bell.svg"
+                                alt="Remind"
+                                class="me-1"
+                              />
+
+                              Remind all
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="mt-4">
+                    <ul class="list-group list-group-flush">
+                      <li class="p-2 list-group-item d-flex align-items-center">
+                        <img
+                          src="https://randomuser.me/api/portraits/women/44.jpg"
+                          alt="avatar"
+                          class="rounded-circle me-2"
+                          width="35"
+                          height="35"
+                        />
+
+                        <div class="w-100">
+                          <div
+                            class="d-flex align-items-center justify-content-between"
+                          >
+                            <div>
+                              <span class="fw-semibold fs-6"
+                                >Setup Initial Access</span
+                              >
+                              <div class="small text-muted fs-7">
+                                From
+                                <span class="fw-semibold">Sarah Jane</span> of
+                                <span class="text-primary">Harman</span>
+                              </div>
+                            </div>
+
+                            <div>
+                              <a
+                                href="#"
+                                class="ms-auto text-primary small text-decoration-none"
+                              >
+                                <img
+                                  src="images/bell-blue.svg"
+                                  alt="Remind"
+                                  class="me-1"
+                                />
+                                Remind</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li class="p-2 list-group-item d-flex align-items-center">
+                        <img
+                          src="https://randomuser.me/api/portraits/women/44.jpg"
+                          alt="avatar"
+                          class="rounded-circle me-2"
+                          width="35"
+                          height="35"
+                        />
+
+                        <div class="w-100">
+                          <div
+                            class="d-flex align-items-center justify-content-between"
+                          >
+                            <div>
+                              <span class="fw-semibold fs-6"
+                                >Setup Initial Access</span
+                              >
+                              <div class="small text-muted fs-7">
+                                From
+                                <span class="fw-semibold">Sarah Jane</span> of
+                                <span class="text-primary">Harman</span>
+                              </div>
+                            </div>
+
+                            <div>
+                              <a
+                                href="#"
+                                class="ms-auto text-primary small text-decoration-none"
+                              >
+                                <img
+                                  src="images/bell-blue.svg"
+                                  alt="Remind"
+                                  class="me-1"
+                                />
+                                Remind</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="text-end mt-2">
+                    <a
+                      href="#"
+                      class="text-primary text-decoration-none fw-semibold"
+                      >View all &rarr;</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">About</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body p-4">
+              <div class="row">
+                <div class="col-md-6 fs-7">
+                  <p>
+                    PENTEST AI is an advanced web application that empowers cybersecurity teams to manage end-to-end penetration testing projects with enhanced efficiency, scalability, and clarity. At its core, it integrates AI-driven capabilities to automate and streamline the repetitive and documentation-heavy aspects of security assessments—while offering a robust project and customer management system.
+                    </p>
+                  <p>It bridges the gap between penetration testing and intelligent automation. By embedding AI deeply into documentation, analysis, and reporting workflows, it frees up testers to focus on technical assessment while maintaining rigor and professionalism in client deliverables. From onboarding to final report, every step is guided, managed, and enhanced within one cohesive platform.
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+
+                  <img src="images/about-view.svg" alt="">
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="tooltip.js"></script>
+    
+  </body>
+</html>

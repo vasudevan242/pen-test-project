@@ -1,0 +1,129 @@
+const percent = 50; // your value
+const r = 26;
+const circumference = 2 * Math.PI * r;
+const dashoffset = circumference * (1 - percent / 100);
+
+
+
+
+
+<div>
+                <div class="card p-4 mb-4">
+                  <h4 class="fw-bold mb-4">
+                    Severity Distribution Projectwise
+                  </h4>
+                  <div class="table-responsive">
+                    <table
+                      class="table text-center align-middle mb-0"
+                      style="min-width: 700px"
+                    >
+                      <thead>
+                        <tr>
+                          <th class="border-0"></th>
+                          <th class="border-0 text-secondary fw-semibold">
+                            Critical
+                          </th>
+                          <th class="border-0 text-secondary fw-semibold">
+                            High
+                          </th>
+                          <th class="border-0 text-secondary fw-semibold">
+                            Medium
+                          </th>
+                          <th class="border-0 text-secondary fw-semibold">
+                            Low
+                          </th>
+                          <th class="border-0 text-secondary fw-semibold">
+                            Info.
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th class="text-secondary fw-bold border-0">
+                            Project A
+                          </th>
+                          <td class="bg-warning bg-opacity-50 fs-5">3</td>
+                          <td class="bg-warning bg-opacity-25 fs-5">1</td>
+                          <td class="bg-danger bg-opacity-75 text-white fs-5">
+                            8
+                          </td>
+                          <td class="bg-warning bg-opacity-75 fs-5">6</td>
+                          <td class="bg-warning bg-opacity-50 fs-5">2</td>
+                        </tr>
+                        <tr>
+                          <th class="text-secondary fw-bold border-0">
+                            Project B
+                          </th>
+                          <td class="bg-warning bg-opacity-10 fs-5">0</td>
+                          <td class="bg-warning bg-opacity-25 fs-5">2</td>
+                          <td class="bg-danger bg-opacity-50 text-white fs-5">
+                            5
+                          </td>
+                          <td class="bg-danger bg-opacity-75 text-white fs-5">
+                            9
+                          </td>
+                          <td class="bg-warning bg-opacity-25 fs-5">1</td>
+                        </tr>
+                        <tr>
+                          <th class="text-secondary fw-bold border-0">
+                            Project C
+                          </th>
+                          <td class="bg-warning bg-opacity-25 fs-5">1</td>
+                          <td class="bg-warning bg-opacity-50 fs-5">3</td>
+                          <td class="bg-danger bg-opacity-75 text-white fs-5">
+                            7
+                          </td>
+                          <td class="bg-danger text-white fs-5">12</td>
+                          <td class="bg-warning bg-opacity-75 fs-5">5</td>
+                        </tr>
+                        <tr>
+                          <th class="text-secondary fw-bold border-0">
+                            Project D
+                          </th>
+                          <td class="bg-warning bg-opacity-50 fs-5">2</td>
+                          <td class="bg-warning bg-opacity-75 fs-5">5</td>
+                          <td class="bg-danger text-white fs-5">10</td>
+                          <td class="bg-danger bg-opacity-75 text-white fs-5">
+                            8
+                          </td>
+                          <td class="bg-warning bg-opacity-50 fs-5">3</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="d-flex align-items-center mt-3">
+                    <div
+                      class="me-2"
+                      style="
+                        height: 120px;
+                        width: 12px;
+                        background: linear-gradient(
+                          to top,
+                          #800000 0%,
+                          #ffc107 100%
+                        );
+                        border-radius: 6px;
+                      "
+                    ></div>
+                    <div>
+                      <div class="fw-semibold" style="font-size: 16px">
+                        Number of findings
+                      </div>
+                      <div
+                        class="d-flex flex-column justify-content-between"
+                        style="height: 100px"
+                      >
+                        <span class="small text-secondary">12</span>
+                        <span class="small text-secondary">08</span>
+                        <span class="small text-secondary">04</span>
+                        <span class="small text-secondary">00</span>
+                      </div>
+                    </div>
+                    <div class="ms-auto text-center w-100">
+                      <span class="fw-bold fs-5 text-secondary"
+                        >Severity Level</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>

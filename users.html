@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>customers</title>
+    <link rel="stylesheet" href="fonts/pentest.css" />
+    <link rel="stylesheet" href="style.css?ver=1" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid justify-content-between">
+          <div class="d-flex justify-content-start">
+            <a class="navbar-brand" href="#">
+              <img id="logo" src="images/logo.svg" alt="Pentest" />
+            </a>
+
+            <a class="navbar-brand" href="#" style="margin-right: 25px">
+              <img id="sidebar-bar" src="images/sidebar.svg" alt="" />
+            </a>
+
+            <form class="d-flex" role="search">
+              <div class="input-group search-bar">
+                <span class="search-icon">
+                  <img src="images/searchicon.svg" alt="" />
+                </span>
+
+                <input
+                  type="text"
+                  class="form-control search-input"
+                  placeholder="Search for anything with AI..."
+                  aria-label="Example text with two button addons"
+                />
+
+                <span class="search-filter-icon">
+                  <img src="images/filtericon.svg" alt="" />
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <ul class="navbar-nav header-top align-items-center gap-2">
+            <li>
+              <a
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Help"
+                class="text-decoration-none"
+                aria-current="page"
+                href="#"
+              >
+                <i class="pentest-Buttonblueprint fs-1 top-bar-icon"></i>
+              </a>
+            </li>
+
+            <li class="me-2" style="position: relative">
+              <div class="topbar-border">
+                <a
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  data-bs-title="Notifications"
+                  class="text-decoration-none"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="pentest-Icon_36x36 fs-1 top-bar-icon"></i>
+                </a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+                aria-expanded="false"
+              >
+                <div class="d-flex">
+                  <span class="d-flex flex-column text-end">
+                    <span class="my-0 fw-bold">Paraveer singh</span>
+                    <span class="my-0 text-sm">Security analyst</span>
+                  </span>
+
+                  <span class="account-user-avatar">
+                    <img
+                      src="images/profile.png"
+                      alt="user-image"
+                      width="32"
+                      height="32"
+                    />
+                  </span>
+
+                  <span>
+                    <img
+                      src="images/Expand_right.svg"
+                      alt="dropdown-arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </span>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="d-flex flex-column align-items-start">
+                  <span class="my-0 fw-bold">Paraveer singh</span>
+                  <span class="my-0 text-sm">Paraveersingh@harman.com</span>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/profile-setting.svg" alt="logout-icon" />
+                      <span class="ms-2">Profile</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/settings.svg" alt="logout-icon" />
+                      <span class="ms-2">Settings</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center text-danger">
+                      <img src="images/signout.svg" alt="logout-icon" />
+                      <span class="ms-2">Sign out</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sidebar bg-light position-fixed">
+        <div class="container mt-2">
+          <ul class="nav flex-column sidebar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <div>
+                  <i class="pentest-dashb-white"></i>
+                  <span>Dashboard</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-analytics"></i>
+                  <span>Analytics</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">
+                <div>
+                  <i class="pentest-projects"></i>
+                  <span>Projects</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="customers.html">
+                <i class="pentest-customers"></i>
+                <span>Customers</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="users.html">
+                <div>
+                  <i class="pentest-users"></i>
+                  <span>Users</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="vulnerbility.html">
+                <div>
+                  <i class="pentest-vulnerbility"></i>
+                  <span>Vulnerability DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-narrative"></i>
+                  <span>Narrative DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="calendar.html">
+                <div>
+                  <i class="pentest-calendar"></i>
+                  <span>Schedule</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">
+                <div>
+                  <i class="pentest-teams"></i>
+                  <span>Teams</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-sidebar-seetings"></i>
+                  <span>Settings</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-help"></i>
+                  <span>Help</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-about"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="d-flex flex-column align-items-start" id="footer-logo">
+              <img class="me-2" src="images/footer-logo.svg" alt="" />
+              <span class="text-muted" style="font-size: 14px; color: #808284"
+                >Version 1.0</span
+              >
+
+              <span class="text-muted mt-2 mb-2" style="font-size: 12px"
+                >&copy; 2025 Harman International</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="container-fluid">
+          <div class="d-flex mb-3">
+            <h5>User Management</h5>
+            <div class="ms-auto">
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+                class="btn btn-primary btn-sm add-project"
+              >
+                + Add Pentest user
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row mb-3">
+            
+            <div class="col-md-3">
+              <div class="rounded-2  shadow-sm bg-bg-user p-4 d-flex justify-content-between">
+                <div>
+                    <div class="small text-muted fs-7 mb-2">Pentest users</div>
+                    <div class="fs-3 fw-bold">15</div>
+                </div>
+                <div>
+                    <div class="user-management-tile bg-primary bg-opacity-25 text-muted">
+                        <i class="text-primary pentest-pentest-users"></i>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="rounded-2 shadow-sm bg-bg-user p-4 d-flex justify-content-between">
+                <div>
+                    <div class="small text-muted fs-7 mb-2">Teams</div>
+                    <div class="fs-3 fw-bold">03</div>
+                </div>
+                <div>
+                    <div class="user-management-tile bg-warning bg-opacity-25 text-muted">
+                        <i class="text-warning fw-semibold pentest-pteams"></i>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="rounded-2  shadow-sm bg-bg-user p-4 d-flex justify-content-between">
+                <div>
+                    <div class="small text-muted fs-7 mb-2">Roles</div>
+                    <div class="fs-3 fw-bold">06</div>
+                </div>
+                <div>
+                    <div class="user-management-tile bg-success bg-opacity-25 text-muted">
+                        <i class="text-success pentest-roles"></i>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="rounded-2 shadow-sm bg-bg-user p-4 d-flex justify-content-between">
+                <div>
+                    <div class="small text-muted fs-7 mb-2">Customer users</div>
+                    <div class="fs-3 fw-bold">10</div>
+                </div>
+                <div>
+                    <div class="user-management-tile bg-danger bg-opacity-25 text-muted">
+                        <i class="text-danger pentest-customeruser"></i>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <ul class="nav navtab-customer nav-tabs mt-4">
+            <li class="nav-item">
+              <button
+                class="nav-link active"
+                id="nav-home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-home"
+                type="button"
+                role="tab"
+                aria-controls="nav-home"
+                aria-selected="true"
+              >
+                <i class="pentest-user"></i> Pentest team
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                id="nav-profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-profile"
+                type="button"
+                role="tab"
+                aria-controls="nav-profile"
+                aria-selected="false"
+              >
+                <i class="pentest-users me-1"></i>Customer users
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="pentest-user"></i> Teams</a
+              >
+            </li>
+          </ul>
+
+          <div class="card-view card-view-customer border-top-0 p-3">
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane show active"
+                id="nav-home"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+                tabindex="0"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Pentest team details</h5>
+                  <div>
+                    <div
+                      class="w-100 d-flex justify-content-end align-items-center gap-2"
+                    >
+                      <div class="search-p" style="display: inline-block">
+                        <div class="input-group" style="width: 260px">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <span class="ms-1 me-1 mt-1">
+                            <img src="images/search-p.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+
+                      <span class="icon-downdload">
+                        <img src="images/filter.svg" alt="" />
+                      </span>
+                      <span class="icon-downdload">
+                        <img src="images/download.svg" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="my-1">
+                  <div class="flex-table-header mb-3">
+                    <div class="flex-table-cell sortable" data-col="1">
+                      Name <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="2">
+                      Email <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="3">
+                      Role <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      Teams <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div
+                      class="flex-table-cell justify-content-center sortable"
+                      data-col="4"
+                    >
+                      Specializations <i class="bi bi-arrow-down-up"></i>
+                    </div>
+
+                    <div class="flex-table-cell">Actions</div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span class="fs-7 fw-bold">Nikhil Kumar</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">nikhil@harman.com</div>
+
+                    <div class="flex-table-cell">Manager</div>
+                    <div class="flex-table-cell">Team Alpha</div>
+
+                    <div class="flex-table-cell justify-content-center">
+                      Not Specified
+                    </div>
+
+                    <div class="flex-table-cell" style="overflow: visible">
+                      <div>
+                        <span
+                          class="icon-downdload dropdown"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+
+                        <ul
+                          class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <i class="pentest-edit-p2"></i>
+                              <span class="ms-1">Edit</span>
+                            </a>
+                          </li>
+
+                          <li><hr class="dropdown-divider m-0" /></li>
+
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div
+                                class="d-flex align-items-center text-danger"
+                              >
+                                <img
+                                  src="images/delete-p.svg"
+                                  alt="delete-icon"
+                                />
+                                <span class="ms-1">Delete</span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span class="fs-7 fw-bold">Arvind Kumarswamy</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">arvind.k@harman.com</div>
+
+                    <div class="flex-table-cell">Tester</div>
+                    <div class="flex-table-cell">Team Beta</div>
+
+                    <div class="flex-table-cell justify-content-center">
+                      Not Specified
+                    </div>
+
+                    <div class="flex-table-cell" style="overflow: visible">
+                      <div>
+                        <span
+                          class="icon-downdload dropdown"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+
+                        <ul
+                          class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <i class="pentest-edit-p2"></i>
+                              <span class="ms-1">Edit</span>
+                            </a>
+                          </li>
+
+                          <li><hr class="dropdown-divider m-0" /></li>
+
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div
+                                class="d-flex align-items-center text-danger"
+                              >
+                                <img
+                                  src="images/delete-p.svg"
+                                  alt="delete-icon"
+                                />
+                                <span class="ms-1">Delete</span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span class="fs-7 fw-bold">Himanshu Kumar</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Himanshu@harman.com</div>
+
+                    <div class="flex-table-cell">Tester</div>
+                    <div class="flex-table-cell">Team Beta</div>
+
+                    <div class="flex-table-cell justify-content-center">
+                      Not Specified
+                    </div>
+
+                    <div class="flex-table-cell" style="overflow: visible">
+                      <div>
+                        <span
+                          class="icon-downdload dropdown"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+
+                        <ul
+                          class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <i class="pentest-edit-p2"></i>
+                              <span class="ms-1">Edit</span>
+                            </a>
+                          </li>
+
+                          <li><hr class="dropdown-divider m-0" /></li>
+
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div
+                                class="d-flex align-items-center text-danger"
+                              >
+                                <img
+                                  src="images/delete-p.svg"
+                                  alt="delete-icon"
+                                />
+                                <span class="ms-1">Delete</span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div
+                class="tab-pane"
+                id="nav-profile"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+                tabindex="0"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Customer details</h5>
+                  <div>
+                    <div
+                      class="w-100 d-flex justify-content-end align-items-center gap-2"
+                    >
+                      <div class="search-p" style="display: inline-block">
+                        <div class="input-group" style="width: 260px">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <span class="ms-1 me-1 mt-1">
+                            <img src="images/search-p.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+
+                      <span class="icon-downdload">
+                        <img src="images/filter.svg" alt="" />
+                      </span>
+                      <span class="icon-downdload">
+                        <img src="images/download.svg" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="my-1">
+                  <div class="flex-table-header mb-3">
+                    <div class="flex-table-cell sortable" data-col="1">
+                      Name <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="2">
+                      Email <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="3">
+                      Role <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      Teams <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div
+                      class="flex-table-cell justify-content-center sortable"
+                      data-col="4"
+                    >
+                      Specializations <i class="bi bi-arrow-down-up"></i>
+                    </div>
+
+                    <div class="flex-table-cell">Actions</div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span class="fs-7 fw-bold">Nikhil Kumar</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">nikhil@harman.com</div>
+
+                    <div class="flex-table-cell">Manager</div>
+                    <div class="flex-table-cell">Team Alpha</div>
+
+                    <div class="flex-table-cell justify-content-center">
+                      Not Specified
+                    </div>
+
+                    <div class="flex-table-cell" style="overflow: visible">
+                      <div>
+                        <span
+                          class="icon-downdload dropdown"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+
+                        <ul
+                          class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <i class="pentest-edit-p2"></i>
+                              <span class="ms-1">Edit</span>
+                            </a>
+                          </li>
+
+                          <li><hr class="dropdown-divider m-0" /></li>
+
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div
+                                class="d-flex align-items-center text-danger"
+                              >
+                                <img
+                                  src="images/delete-p.svg"
+                                  alt="delete-icon"
+                                />
+                                <span class="ms-1">Delete</span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span class="fs-7 fw-bold">Arvind Kumarswamy</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">arvind.k@harman.com</div>
+
+                    <div class="flex-table-cell">Tester</div>
+                    <div class="flex-table-cell">Team Beta</div>
+
+                    <div class="flex-table-cell justify-content-center">
+                      Not Specified
+                    </div>
+
+                    <div class="flex-table-cell" style="overflow: visible">
+                      <div>
+                        <span
+                          class="icon-downdload dropdown"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+
+                        <ul
+                          class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <i class="pentest-edit-p2"></i>
+                              <span class="ms-1">Edit</span>
+                            </a>
+                          </li>
+
+                          <li><hr class="dropdown-divider m-0" /></li>
+
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div
+                                class="d-flex align-items-center text-danger"
+                              >
+                                <img
+                                  src="images/delete-p.svg"
+                                  alt="delete-icon"
+                                />
+                                <span class="ms-1">Delete</span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span class="fs-7 fw-bold">Himanshu Kumar</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Himanshu@harman.com</div>
+
+                    <div class="flex-table-cell">Tester</div>
+                    <div class="flex-table-cell">Team Beta</div>
+
+                    <div class="flex-table-cell justify-content-center">
+                      Not Specified
+                    </div>
+
+                    <div class="flex-table-cell" style="overflow: visible">
+                      <div>
+                        <span
+                          class="icon-downdload dropdown"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+
+                        <ul
+                          class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <i class="pentest-edit-p2"></i>
+                              <span class="ms-1">Edit</span>
+                            </a>
+                          </li>
+
+                          <li><hr class="dropdown-divider m-0" /></li>
+
+                          <li>
+                            <a class="dropdown-item" href="#">
+                              <div
+                                class="d-flex align-items-center text-danger"
+                              >
+                                <img
+                                  src="images/delete-p.svg"
+                                  alt="delete-icon"
+                                />
+                                <span class="ms-1">Delete</span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="tooltip.js"></script>
+    
+  </body>
+</html>

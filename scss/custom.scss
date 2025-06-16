@@ -1,0 +1,30 @@
+$primary: #0073ae;
+$font-size-sm: 1rem * .775;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "dashboard";
+@import "login";
+@import "project";
+@import "customer";
+
+
+[class^="pentest-"], [class*=" pentest-"] {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.fs-7 {
+  font-size: $font-size-sm;
+}
+
+.pentest-sort {
+  display: none;
+}
+
+
+
+
+
+
+

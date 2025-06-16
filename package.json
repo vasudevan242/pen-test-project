@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "my-web-project",
+  "version": "1.0.0",
+  "description": "A simple web project with Bootstrap and custom icons",
+  "scripts": {
+    "build:icons": "webfont ./images/*.svg --dest ./dist/fonts --template css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "svgtofont": "^6.3.2"
+  },
+  "devDependencies": {
+    "webfont": "^11.2.26"
+  }
+}

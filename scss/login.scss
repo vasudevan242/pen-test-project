@@ -1,0 +1,8 @@
+.wrapper-login {
+    background: linear-gradient(to top, #E3E5E6 0%,#E8F3FF 100%);
+    height: 100vh;
+    input:focus {
+        box-shadow: none !important;
+        outline: none;
+    }
+}

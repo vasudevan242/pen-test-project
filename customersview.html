@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="fonts/pentest.css" />
+
+    <link rel="stylesheet" href="style.css?ver=1" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid justify-content-between">
+          <div class="d-flex justify-content-start">
+            <a class="navbar-brand" href="#">
+              <img id="logo" src="images/logo.svg" alt="Pentest" />
+            </a>
+
+            <a class="navbar-brand" href="#" style="margin-right: 25px">
+              <img id="sidebar-bar" src="images/sidebar.svg" alt="" />
+            </a>
+
+            <form class="d-flex" role="search">
+              <div class="input-group search-bar">
+                <span class="search-icon">
+                  <img src="images/searchicon.svg" alt="" />
+                </span>
+
+                <input
+                  type="text"
+                  class="form-control search-input"
+                  placeholder="Search for anything with AI..."
+                  aria-label="Example text with two button addons"
+                />
+
+                <span class="search-filter-icon">
+                  <img src="images/filtericon.svg" alt="" />
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <ul class="navbar-nav header-top align-items-center gap-2">
+            <li>
+              <a
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Help"
+                class="text-decoration-none"
+                aria-current="page"
+                href="#"
+              >
+                <i class="pentest-Buttonblueprint fs-1 top-bar-icon"></i>
+              </a>
+            </li>
+
+            <li class="me-2" style="position: relative">
+              <div class="topbar-border">
+                <a
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  data-bs-title="Notifications"
+                  class="text-decoration-none"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="pentest-Icon_36x36 fs-1 top-bar-icon"></i>
+                </a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+                aria-expanded="false"
+              >
+                <div class="d-flex">
+                  <span class="d-flex flex-column text-end">
+                    <span class="my-0 fw-bold">Paraveer singh</span>
+                    <span class="my-0 text-sm">Security analyst</span>
+                  </span>
+
+                  <span class="account-user-avatar">
+                    <img
+                      src="images/profile.png"
+                      alt="user-image"
+                      width="32"
+                      height="32"
+                    />
+                  </span>
+
+                  <span>
+                    <img
+                      src="images/Expand_right.svg"
+                      alt="dropdown-arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </span>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="d-flex flex-column align-items-start">
+                  <span class="my-0 fw-bold">Paraveer singh</span>
+                  <span class="my-0 text-sm">Paraveersingh@harman.com</span>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/profile-setting.svg" alt="logout-icon" />
+                      <span class="ms-2">Profile</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/settings.svg" alt="logout-icon" />
+                      <span class="ms-2">Settings</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center text-danger">
+                      <img src="images/signout.svg" alt="logout-icon" />
+                      <span class="ms-2">Sign out</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sidebar bg-light position-fixed">
+        <div class="container mt-2">
+           <ul class="nav flex-column sidebar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <div>
+                  <i class="pentest-dashb-white"></i>
+                  <span>Dashboard</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-analytics"></i>
+                  <span>Analytics</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">
+                <div>
+                  <i class="pentest-projects"></i>
+                  <span>Projects</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="customers.html">
+                <i class="pentest-customers"></i>
+                <span>Customers</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="users.html">
+                <div>
+                  <i class="pentest-users"></i>
+                  <span>Users</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="vulnerbility.html">
+                <div>
+                  <i class="pentest-vulnerbility"></i>
+                  <span>Vulnerability DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-narrative"></i>
+                  <span>Narrative DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="calendar.html">
+                <div>
+                  <i class="pentest-calendar"></i>
+                  <span>Schedule</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">
+                <div>
+                  <i class="pentest-teams"></i>
+                  <span>Teams</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-sidebar-seetings"></i>
+                  <span>Settings</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-help"></i>
+                  <span>Help</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-about"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="d-flex flex-column align-items-start" id="footer-logo">
+              <img class="me-2" src="images/footer-logo.svg" alt="" />
+              <span class="text-muted" style="font-size: 14px; color: #808284"
+                >Version 1.0</span
+              >
+
+              <span class="text-muted mt-2 mb-2" style="font-size: 12px"
+                >&copy; 2025 Harman International</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="container-fluid">
+          <div class="d-flex mb-4 ps-2">
+            <a href="customers.html" class="text-decoration-none text-secondary fw-semibold">
+                <h6> <i class="pentest-back"></i> Back</h6>
+            </a>
+          </div>
+        </div>
+
+        <div class="container-fluid my-4">
+          <div class="card card-view p-3 pb-3 pt-3">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="card card-view p-3 h-100">
+                  <div class="d-flex align-items-center mb-3">
+                    <img
+                      src="images/logo.svg"
+                      alt="Logo"
+                      style="width: 64px; height: 64px"
+                      class="me-3 rounded"
+                    />
+                    <div>
+                      <h4 class="mb-0">Harman</h4>
+                      <div class="text-muted">Technology</div>
+                    </div>
+                    <div class="ms-auto">
+                      <button class="btn fs-7 btn-primary btn-md">
+                        <i class="pentest-edit-p2"></i> Edit customer
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row g-2 mb-3">
+                    <div class="col-md-4">
+                      <div class="bg-primary bg-opacity-10 rounded p-3 text-center">
+                        <div class="small text-muted">Total projects</div>
+                        <div class="fs-3 fw-bold">10</div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div
+                        class="bg-success bg-opacity-10 rounded p-3 text-center"
+                      >
+                        <div class="small text-muted">Active projects</div>
+                        <div class="fs-3 fw-bold">05</div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div
+                        class="bg-warning bg-opacity-10 rounded p-3 text-center"
+                      >
+                        <div class="small text-muted">Total findings</div>
+                        <div class="fs-3 fw-bold">03</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-2 fw-semibold">
+                    Onboarding Progress <span class="float-end">50%</span>
+                  </div>
+                  <div class="progress mb-1" style="height: 8px">
+                    <div class="progress-bar" style="width: 50%"></div>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center small"
+                  >
+                    <span>5 of 10 tasks completed</span>
+                    <span class="text-success"
+                      ><i class="bi bi-check-circle"></i> Mark all as
+                      completed</span
+                    >
+                  </div>
+                  <div class="mt-2 text-end">
+                    <a href="#" class="text-decoration-none"
+                      >View all tasks <i class="bi bi-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Right: Details -->
+              <div class="col-md-6">
+                <div class="card card-view p-3 h-100">
+                  <div class="fw-semibold mb-3">Details</div>
+                  <div class="row g-2 mb-2">
+                    <div class="col-6 small text-muted">Primary Contact</div>
+                    <div class="col-6 small text-muted">Email</div>
+                    <div class="col-6 fw-semibold">Rishit Singh</div>
+                    <div class="col-6">
+                      <span class="fw-semibold">rishit.singh@harman.com</span>
+                      <i
+                        class="bi bi-clipboard ms-1"
+                        style="font-size: 1rem; cursor: pointer"
+                      ></i>
+                    </div>
+                  </div>
+                  <div class="row g-2 mb-2">
+                    <div class="col-6 small text-muted">Phone</div>
+                    <div class="col-6 small text-muted">Secondary Contact</div>
+                    <div class="col-6 fw-semibold">1234567890</div>
+                    <div class="col-6">Not specified</div>
+                  </div>
+                  <div class="mb-2">
+                    <div class="small text-muted">Address</div>
+                    <div class="fw-semibold small">
+                      No. 2, A1, 152, Pattandur Agrahara Village Main Rd,
+                      opposite to ITPL, KIADB Export Promotion Industrial Area,
+                      Krishnarajapuram, Bengaluru, Karnataka 560066
+                    </div>
+                  </div>
+                  <div class="row g-2">
+                    <div class="col-8">
+                      <div class="small text-muted">Website</div>
+                      <a
+                        href="http://www.harman.com"
+                        class="fw-semibold small"
+                        target="_blank"
+                        >www.harman.com</a
+                      >
+                      <i
+                        class="bi bi-clipboard ms-1"
+                        style="font-size: 1rem; cursor: pointer"
+                      ></i>
+                    </div>
+                    <div class="col-4">
+                      <div class="small text-muted">Tenure</div>
+                      <div class="fw-semibold small">
+                        <i class="bi bi-hourglass-split me-1"></i>3y 4m
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="nav navtab-customer nav-tabs mt-4">
+            <li class="nav-item">
+              <button
+                class="nav-link active"
+                id="nav-home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-home"
+                type="button"
+                role="tab"
+                aria-controls="nav-home"
+                aria-selected="true"
+              >
+                <i class="pentest-projects fs-5"></i> Projects
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                id="nav-profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-profile"
+                type="button"
+                role="tab"
+                aria-controls="nav-profile"
+                aria-selected="false"
+              >
+                <i class="pentest-onboard me-1"></i>Onboarding tasks
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="pentest-document"></i>
+                Documents
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="pentest-user"></i> Users</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="pentest-notes"></i> Notes</a
+              >
+            </li>
+          </ul>
+
+          <div class="card-view card-view-customer border-top-0 p-3">
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane show active"
+                id="nav-home"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+                tabindex="0"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Project Details</h5>
+                  <div>
+                    <div
+                      class="w-100 d-flex justify-content-end align-items-center gap-2"
+                    >
+                      <div class="search-p" style="display: inline-block">
+                        <div class="input-group" style="width: 260px">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <span class="ms-1 me-1 mt-1">
+                            <img src="images/search-p.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+
+                      <span class="icon-downdload">
+                        <img src="images/filter.svg" alt="" />
+                      </span>
+                      <span class="icon-downdload">
+                        <img src="images/download.svg" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row g-3">
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <div>
+                            <div class="fw-semibold">Harman HRMS</div>
+                            <div class="small text-muted">PRJ-A2873C42</div>
+                          </div>
+                          <span class="badge bg-success bg-opacity-75"
+                            >Completed</span
+                          >
+                        </div>
+                        <div class="mb-2 small text-muted">
+                          <i class="bi bi-calendar-event me-1"></i>18 Apr 25 -
+                          24 Apr 25
+                          <span class="ms-2"
+                            ><i class="bi bi-shield-lock me-1"></i>Greybox</span
+                          >
+                        </div>
+                        <div class="d-flex gap-2">
+                          <a
+                            href="#"
+                            class="btn btn-outline-primary btn-sm flex-fill"
+                            >Dashboard</a
+                          >
+                          <a
+                            href="#"
+                            class="btn btn-outline-secondary btn-sm flex-fill"
+                            >Findings</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <div>
+                            <div class="fw-semibold">Cyber Security Portal</div>
+                            <div class="small text-muted">PRJ-A2873C42</div>
+                          </div>
+                          <span class="badge bg-primary bg-opacity-75"
+                            >Ongoing</span
+                          >
+                        </div>
+                        <div class="mb-2 small text-muted">
+                          <i class="bi bi-calendar-event me-1"></i>18 Apr 25 -
+                          24 Apr 25
+                          <span class="ms-2"
+                            ><i class="bi bi-shield-lock me-1"></i
+                            >Blackbox</span
+                          >
+                        </div>
+                        <div class="d-flex gap-2">
+                          <a
+                            href="#"
+                            class="btn btn-outline-primary btn-sm flex-fill"
+                            >Dashboard</a
+                          >
+                          <a
+                            href="#"
+                            class="btn btn-outline-secondary btn-sm flex-fill"
+                            >Findings</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <div
+                          class="d-flex justify-content-between align-items-center mb-2"
+                        >
+                          <div>
+                            <div class="fw-semibold">Harman CloudHub</div>
+                            <div class="small text-muted">PRJ-A2873C42</div>
+                          </div>
+                          <span class="badge bg-primary bg-opacity-75"
+                            >Ongoing</span
+                          >
+                        </div>
+                        <div class="mb-2 small text-muted">
+                          <i class="bi bi-calendar-event me-1"></i>18 Apr 25 -
+                          24 Apr 25
+                          <span class="ms-2"
+                            ><i class="bi bi-shield-lock me-1"></i>Greybox</span
+                          >
+                        </div>
+                        <div class="d-flex gap-2">
+                          <a
+                            href="#"
+                            class="btn btn-outline-primary btn-sm flex-fill"
+                            >Dashboard</a
+                          >
+                          <a
+                            href="#"
+                            class="btn btn-outline-secondary btn-sm flex-fill"
+                            >Findings</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane"
+                id="nav-profile"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+                tabindex="0"
+              >
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Onboarding Tasks</h5>
+                  <div>
+                    <div
+                      class="w-100 d-flex justify-content-end align-items-center gap-2"
+                    >
+                      <div class="search-p" style="display: inline-block">
+                        <div class="input-group" style="width: 260px">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <span class="ms-1 me-1 mt-1">
+                            <img src="images/search-p.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+
+                      <span class="icon-downdload">
+                        <img src="images/filter.svg" alt="" />
+                      </span>
+                      <span class="icon-downdload">
+                        <img src="images/download.svg" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-7">
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex align-items-center px-1"
+                      >
+                        <span
+                          class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                        >
+                          <img src="images/folder.svg" alt="" />
+                        </span>
+
+                        <div class="w-100">
+                          <div
+                            class="d-flesx align-items-center justify-content-between"
+                          >
+                            <div>
+                              <span class="fw-semibold">Initial Meeting</span>
+                              <span
+                                class="badge bg-success bg-opacity-10 text-success"
+                                >Completed</span
+                              >
+                              <br />
+                              <span class="text-muted fs-7"
+                                >Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Dignissimos, rati</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        class="list-group-item d-flex align-items-center px-1"
+                      >
+                        <span
+                          class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                        >
+                          <img src="images/folder.svg" alt="" />
+                        </span>
+
+                        <div class="w-100">
+                          <div
+                            class="d-flesx align-items-center justify-content-between"
+                          >
+                            <div>
+                              <span class="fw-semibold">Initial Meeting</span>
+                              <span
+                                class="badge bg-success bg-opacity-10 text-success"
+                                >Completed</span
+                              >
+                              <br />
+                              <span class="text-muted fs-7"
+                                >Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Dignissimos, rati</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        class="list-group-item d-flex align-items-center px-1"
+                      >
+                        <span
+                          class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                        >
+                          <img src="images/folder.svg" alt="" />
+                        </span>
+
+                        <div class="w-100">
+                          <div
+                            class="d-flesx align-items-center justify-content-between"
+                          >
+                            <div>
+                              <span class="fw-semibold">Initial Meeting</span>
+                              <span
+                                class="badge bg-success bg-opacity-10 text-success"
+                                >Completed</span
+                              >
+                              <br />
+                              <span class="text-muted fs-7"
+                                >Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Dignissimos, rati</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        class="list-group-item d-flex align-items-center px-1"
+                      >
+                        <span
+                          class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                        >
+                          <img src="images/folder.svg" alt="" />
+                        </span>
+
+                        <div class="w-100">
+                          <div
+                            class="d-flesx align-items-center justify-content-between"
+                          >
+                            <div>
+                              <span class="fw-semibold">Initial Meeting</span>
+                              <span
+                                class="badge bg-success bg-opacity-10 text-success"
+                                >Completed</span
+                              >
+                              <br />
+                              <span class="text-muted fs-7"
+                                >Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Dignissimos, rati</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <li
+                        class="list-group-item d-flex align-items-center px-1"
+                      >
+                        <span
+                          class="bg-primary bg-opacity-10 me-2 rounded-circle project-folder text-center"
+                        >
+                          <img src="images/folder.svg" alt="" />
+                        </span>
+
+                        <div class="w-100">
+                          <div
+                            class="d-flesx align-items-center justify-content-between"
+                          >
+                            <div>
+                              <span class="fw-semibold">Initial Meeting</span>
+                              <span
+                                class="badge bg-success bg-opacity-10 text-success"
+                                >Completed</span
+                              >
+                              <br />
+                              <span class="text-muted fs-7"
+                                >Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Dignissimos, rati</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-5">
+
+                    <div class="card p-3 dashboard-in-on-border">
+                      <div class="fw-bold mb-2">Tasks Summary</div>
+
+                      <div class="d-flex justify-content-start align-items-center">
+                        <svg width="125" height="125" viewBox="0 0 200 200">
+                          <!-- Background circles for each arc -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="90"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          ></circle>
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="70"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          ></circle>
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="50"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          ></circle>
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="30"
+                            stroke="#fafafa"
+                            stroke-width="8"
+                            fill="none"
+                          ></circle>
+                          <!-- Outer arc (purple) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="90"
+                            stroke="#551a8b"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="565.49"
+                            stroke-dashoffset="141.37"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          ></circle>
+                          <!-- Second arc (blue) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="70"
+                            stroke="#4285f4"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="439.82"
+                            stroke-dashoffset="109.95"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          ></circle>
+                          <!-- Third arc (green) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="50"
+                            stroke="#198754"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="314.16"
+                            stroke-dashoffset="78.54"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          ></circle>
+                          <!-- Inner arc (yellow) -->
+                          <circle
+                            cx="100"
+                            cy="100"
+                            r="30"
+                            stroke="#ffc107"
+                            stroke-width="8"
+                            fill="none"
+                            stroke-dasharray="188.50"
+                            stroke-dashoffset="900"
+                            stroke-linecap="round"
+                            transform="rotate(-90 100 100)"
+                          ></circle>
+                        </svg>
+
+                        <div class="ms-1 fs-7">
+                          <div class="mb-1">
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #6f42c1"
+                              >&nbsp;</span
+                            >
+                            <span class="small">Open</span>
+                          </div>
+
+                          <div class="mb-1">
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #0d6efd"
+                              >&nbsp;</span
+                            >
+                            <span class="small">In Progress</span>
+                          </div>
+
+                          <div class="mb-1">
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #198754"
+                              >&nbsp;</span
+                            >
+                            <span class="small">Resolved</span>
+                          </div>
+
+                          <div>
+                            <span
+                              class="badge rounded-pill"
+                              style="background: #ffc107"
+                              >&nbsp;</span
+                            >
+                            <span class="small">Accepted</span>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="bg-primary rounded bg-opacity-10 p-3 mt-2">
+                            <img src="images/info.svg" alt=""> 
+                            <span class="fs-7">Tasks are automactially ordered by priority</span>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+
+      document.querySelectorAll(".bt").forEach((el) => {
+        el.addEventListener("click", (event) => {
+          document.querySelectorAll("a[data]").forEach((m) => {
+            m.classList.remove("btn-primary");
+            m.classList.add("btn-secondary");
+          });
+
+          const d = el.getAttribute("data");
+          console.log("d", el.classList);
+
+          if (d == "dashboard") {
+            document.getElementById("dashboard").style.display = "block";
+            document.getElementById("findings").style.display = "none";
+            document.getElementById("narratives").style.display = "none";
+            el.classList.add("btn-primary");
+            el.classList.remove("btn-secondary");
+          }
+
+          if (d == "findings") {
+            document.getElementById("findings").style.display = "block";
+            document.getElementById("narratives").style.display = "none";
+            document.getElementById("dashboard").style.display = "none";
+            el.classList.add("btn-primary");
+            el.classList.remove("btn-secondary");
+          }
+
+          if (d == "narratives") {
+            document.getElementById("narratives").style.display = "block";
+            document.getElementById("dashboard").style.display = "none";
+            document.getElementById("findings").style.display = "none";
+            el.classList.add("btn-primary");
+            el.classList.remove("btn-secondary");
+          }
+        });
+      });
+    </script>
+
+    <script>
+      // Sorting feature for flex-table
+      document
+        .querySelectorAll(".flex-table-header .sortable")
+        .forEach((header) => {
+          header.style.cursor = "pointer";
+          header.addEventListener("click", function () {
+            const colIndex = parseInt(header.getAttribute("data-col"));
+            const container = header.closest(".container");
+            const rows = Array.from(
+              container.querySelectorAll(".flex-table-row")
+            );
+            const metas = Array.from(
+              container.querySelectorAll(".flex-table-meta")
+            );
+            const isAsc = !header.classList.contains("sorted-asc");
+
+            // Remove sort classes from all headers
+            container
+              .querySelectorAll(".flex-table-header .sortable")
+              .forEach((h) => {
+                h.classList.remove("sorted-asc", "sorted-desc");
+              });
+            header.classList.add(isAsc ? "sorted-asc" : "sorted-desc");
+
+            // Pair rows with their meta
+            const pairs = rows.map((row, i) => [row, metas[i]]);
+            pairs.sort((a, b) => {
+              const aText = a[0].children[colIndex].innerText.trim();
+              const bText = b[0].children[colIndex].innerText.trim();
+              if (!isNaN(Date.parse(aText)) && !isNaN(Date.parse(bText))) {
+                // Date sort
+                return isAsc
+                  ? new Date(aText) - new Date(bText)
+                  : new Date(bText) - new Date(aText);
+              }
+              return isAsc
+                ? aText.localeCompare(bText, undefined, { numeric: true })
+                : bText.localeCompare(aText, undefined, { numeric: true });
+            });
+
+            // Re-append in sorted order
+            pairs.forEach((pair) => {
+              container.appendChild(pair[0]);
+              container.appendChild(pair[1]);
+            });
+          });
+        });
+    </script>
+
+    <script>
+      document.querySelectorAll(".more-detail").forEach((child) => {
+        child.addEventListener("click", function () {
+          // parent node
+
+          const parent = child.parentElement;
+
+          const topParent = parent.parentElement;
+
+          // parent's next sibling
+          const meta = parent.nextElementSibling;
+          if (meta.style.display === "block") {
+            meta.style.display = "none";
+
+            child.querySelector("i").classList.remove("pentest-arrowup");
+            child.querySelector("i").classList.add("pentest-arrowdown");
+
+            topParent.style.border = "none";
+            topParent.style.borderRadius = "0px";
+            topParent.style.marginBottom = "0px";
+          } else {
+            meta.style.display = "block";
+
+            child.querySelector("i").classList.remove("pentest-arrowdown");
+            child.querySelector("i").classList.add("pentest-arrowup");
+
+            topParent.style.border = "1px solid #0073ae";
+            topParent.style.borderRadius = "8px";
+            topParent.style.marginBottom = "10px";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

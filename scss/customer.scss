@@ -1,0 +1,40 @@
+
+.navtab-customer {
+    border-bottom: 0;
+    .nav-link {
+        background: #f0eeee;
+        margin: 0px 5px;
+        color: #878787;
+        font-size: 13px;
+        font-weight: 600;
+        &:first-child {
+            margin-left: 0px;
+        }
+        &.active {
+            color: $primary;
+            font-weight: 600;
+        }
+    }
+}
+
+.card-view-customer {
+    border-top-left-radius: 0;
+}
+
+.user-management-tile {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    text-align: center;
+    align-content: center;
+}
+
+.bg-bg-user {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.backg-grey {
+    background-color: #f0eeee;
+    border: 1px solid #f0f0f0;
+}

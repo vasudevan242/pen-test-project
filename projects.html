@@ -1,0 +1,2324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="fonts/pentest.css" />
+
+    <link rel="stylesheet" href="style.css?ver=1" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid justify-content-between">
+          <div class="d-flex justify-content-start">
+            <a class="navbar-brand" href="#">
+              <img id="logo" src="images/logo.svg" alt="Pentest" />
+            </a>
+
+            <a class="navbar-brand" href="#" style="margin-right: 25px">
+              <img id="sidebar-bar" src="images/sidebar.svg" alt="" />
+            </a>
+
+            <form class="d-flex" role="search">
+              <div class="input-group search-bar">
+                <span class="search-icon">
+                  <img src="images/searchicon.svg" alt="" />
+                </span>
+
+                <input
+                  type="text"
+                  class="form-control search-input"
+                  placeholder="Search for anything with AI..."
+                  aria-label="Example text with two button addons"
+                />
+
+                <span class="search-filter-icon">
+                  <img src="images/filtericon.svg" alt="" />
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <ul class="navbar-nav header-top align-items-center gap-2">
+            <li>
+              <a
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Help"
+                class="text-decoration-none"
+                aria-current="page"
+                href="#"
+              >
+                <i class="pentest-Buttonblueprint fs-1 top-bar-icon"></i>
+              </a>
+            </li>
+
+            <li class="me-2" style="position: relative">
+              <div class="topbar-border">
+                <a
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  data-bs-title="Notifications"
+                  class="text-decoration-none"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="pentest-Icon_36x36 fs-1 top-bar-icon"></i>
+                </a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+                aria-expanded="false"
+              >
+                <div class="d-flex">
+                  <span class="d-flex flex-column text-end">
+                    <span class="my-0 fw-bold">Paraveer singh</span>
+                    <span class="my-0 text-sm">Security analyst</span>
+                  </span>
+
+                  <span class="account-user-avatar">
+                    <img
+                      src="images/profile.png"
+                      alt="user-image"
+                      width="32"
+                      height="32"
+                    />
+                  </span>
+
+                  <span>
+                    <img
+                      src="images/Expand_right.svg"
+                      alt="dropdown-arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </span>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="d-flex flex-column align-items-start">
+                  <span class="my-0 fw-bold">Paraveer singh</span>
+                  <span class="my-0 text-sm">Paraveersingh@harman.com</span>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/profile-setting.svg" alt="logout-icon" />
+                      <span class="ms-2">Profile</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/settings.svg" alt="logout-icon" />
+                      <span class="ms-2">Settings</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center text-danger">
+                      <img src="images/signout.svg" alt="logout-icon" />
+                      <span class="ms-2">Sign out</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sidebar bg-light position-fixed">
+        <div class="container mt-2">
+           <ul class="nav flex-column sidebar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <div>
+                  <i class="pentest-dashb-white"></i>
+                  <span>Dashboard</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-analytics"></i>
+                  <span>Analytics</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">
+                <div>
+                  <i class="pentest-projects"></i>
+                  <span>Projects</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="customers.html">
+                <i class="pentest-customers"></i>
+                <span>Customers</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="users.html">
+                <div>
+                  <i class="pentest-users"></i>
+                  <span>Users</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="vulnerbility.html">
+                <div>
+                  <i class="pentest-vulnerbility"></i>
+                  <span>Vulnerability DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-narrative"></i>
+                  <span>Narrative DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="calendar.html">
+                <div>
+                  <i class="pentest-calendar"></i>
+                  <span>Schedule</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">
+                <div>
+                  <i class="pentest-teams"></i>
+                  <span>Teams</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-sidebar-seetings"></i>
+                  <span>Settings</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-help"></i>
+                  <span>Help</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-about"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="d-flex flex-column align-items-start" id="footer-logo">
+              <img class="me-2" src="images/footer-logo.svg" alt="" />
+              <span class="text-muted" style="font-size: 14px; color: #808284"
+                >Version 1.0</span
+              >
+
+              <span class="text-muted mt-2 mb-2" style="font-size: 12px"
+                >&copy; 2025 Harman International</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="container-fluid">
+          <div class="d-flex mb-3">
+            <h5>Project Details</h5>
+            <div class="ms-auto">
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+                class="btn btn-primary btn-sm add-project"
+              >
+                + Add Project
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="card card-view p-3 mb-4">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Project Status</h5>
+                  <div>
+                    <div
+                      class="w-100 d-flex justify-content-end align-items-center gap-2"
+                    >
+                      <div class="search-p" style="display: inline-block">
+                        <div class="input-group" style="width: 260px">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <span class="ms-1 me-1 mt-1">
+                            <img src="images/search-p.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+
+                      <span class="icon-downdload">
+                        <img src="images/filter.svg" alt="" />
+                      </span>
+                      <span class="icon-downdload">
+                        <img src="images/download.svg" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+               
+                <div class="my-1 list-exp">
+
+                  <div class="flex-table-header mb-3">
+                    <div class="flex-table-cell"></div>
+                    <div style="flex-basis: 80px" class="flex-table-cell sortable" data-col="1">
+                      Project Name <i class="pentest-sort"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="2">
+                      Code <i class="pentest-sort"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="3">
+                      Enagagement Type <i class="pentest-sort"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      Approval <i class="pentest-sort"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      Start Date <i class="pentest-sort"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      End Date <i class="pentest-sort"></i>
+                    </div>
+
+                    <div class="flex-table-cell">Actions</div>
+                  </div>
+
+                  <div>
+                    <div class="flex-table-row">
+                      <div class="flex-table-cell more-detail">
+                        <i class="pentest-arrowdown fs-3"></i>
+                      </div>
+
+                      <div style="flex-basis: 80px" class="flex-table-cell">
+                        <div class="d-flex align-items-start">
+                          <div class="d-flex flex-column">
+                            <span class="fs-7 fw-bold">Harman HMS</span>
+                            <span class="text-muted small">Harman</span>
+                          </div>
+                          <div>
+                            <span class="badge bg-success bg-opacity-75 ms-1"
+                              >Completed</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="flex-table-cell">PRJ-45550960</div>
+
+                      <div class="flex-table-cell">Blackbox</div>
+                      <div class="flex-table-cell">
+                        <div class="d-flex flex-column">
+                          <span class="fw-bold text-success">Approved</span>
+                          <span class="small">By Paramveer Singh</span>
+                        </div>
+                      </div>
+
+                      <div class="flex-table-cell">Apr 18, 2025</div>
+                      <div class="flex-table-cell">Apr 30, 2025</div>
+
+                      <div class="flex-table-cell" style="overflow: visible">
+                        <div>
+                          <span class="icon-downdload" style="height: 30px; padding-top: 3px;">
+                            <img src="images/approve.svg" alt="" />
+                          </span>
+
+                          <span
+                            class="icon-downdload dropdown"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="height: 30px; padding-top: 3px"
+                          >
+                            <img src="images/more.svg" alt="" />
+
+                            <ul
+                              class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                            >
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <div class="d-flex align-items-center">
+                                    <img
+                                      src="images/dashboard-icon.svg"
+                                      alt="dashboard"
+                                    />
+                                    <span
+                                      class="ms-1"
+                                      data-bs-toggle="offcanvas"
+                                      data-bs-target="#offcanvasRight2"
+                                      aria-controls="offcanvasRight2"
+                                      >Open Dashboard</span
+                                    >
+                                  </div>
+                                </a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <div class="d-flex align-items-center">
+                                    <img
+                                      src="images/edit-p.svg"
+                                      alt="logout-icon"
+                                    />
+                                    <span class="ms-1">Edit Project</span>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <div class="d-flex align-items-center">
+                                    <img
+                                      src="images/approve-p.svg"
+                                      alt="logout-icon"
+                                    />
+                                    <span class="ms-1">Approve Project</span>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li><hr class="dropdown-divider m-0" /></li>
+
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <div
+                                    class="d-flex align-items-center text-danger"
+                                  >
+                                    <img
+                                      src="images/delete-p.svg"
+                                      alt="delete-icon"
+                                    />
+                                    <span class="ms-1">Delete</span>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-meta collapse" id="meta1">
+                      <div class="row g-3">
+                        <div class="col-md-6">
+                          <div class="card project-b h-100">
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <div class="fw-semibold">Scope</div>
+                                <div class="text-muted small fs-7">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Morbi vestibulum nisl turpis,
+                                  at venenatis nibh faucibus vitae. Cras laoreet
+                                  scelerisque lacinia. Phasellus...
+                                </div>
+                              </div>
+                            </div>
+
+                            <div
+                              class="card-footer border-top-0 rounded-2 bg-white p-3"
+                            >
+                              <div
+                                class="d-flex align-items-center justify-content-between mb-1"
+                              >
+                                <span class="fw-semibold">Status</span>
+                                <span class="fw-bold fs-5">100%</span>
+                              </div>
+
+                              <div class="progress mb-2" style="height: 8px">
+                                <div
+                                  class="progress-bar bg-success"
+                                  role="progressbar"
+                                  style="width: 100%"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="card project-b h-100">
+                            <div class="card-body">
+                              <div class="row mb-3">
+                                <div class="col">
+                                  <div class="fw-semibold small">
+                                    Testing Level
+                                  </div>
+                                  <span
+                                    class="badge rounded-pill bg-light text-dark"
+                                    style="
+                                      color: #ab35af !important;
+                                      background-color: #f2d8f3 !important;
+                                    "
+                                    >OWASP ASVS Level 1</span
+                                  >
+                                </div>
+                                <div class="col border-start border-end">
+                                  <div class="small fw-semibold">Duration</div>
+                                  <div class="fs-6">1 week, 5 days</div>
+                                </div>
+                                <div class="col">
+                                  <div class="small fw-semibold">
+                                    Testing Types
+                                  </div>
+                                  <div
+                                    class="d-flex flex-wrap small justify-content-between"
+                                  >
+                                    <span>API</span>
+                                    <span>Mobile</span>
+                                    <span
+                                      class="badge badge-circle fw-bold text-primary bg-primary bg-opacity-25 ms-1"
+                                      >+6</span
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="bg-white p-3 rounded-2">
+                              <div class="fw-semibold mb-3">Quick Links</div>
+
+                              <div
+                                class="d-flex flex-wrap justify-content-between p-links"
+                              >
+                                <a
+                                  href="#"
+                                  data-bs-toggle="offcanvas"
+                                  data-bs-target="#offcanvasRight2"
+                                  aria-controls="offcanvasRight2"
+                                  class="btn btn-outline-primary btn-sm fw-semibold add-project"
+                                >
+                                  <i class="pentest-pdashboard"></i>
+                                  <span>Dashboard</span>
+                                </a>
+                                <a
+                                  href="#"
+                                  class="btn btn-outline-primary btn-sm fw-semibold add-project"
+                                >
+                                  <i class="pentest-pfindings"></i>
+                                  <span>Findings</span>
+                                </a>
+                                <a
+                                  href="#"
+                                  class="btn btn-outline-primary btn-sm fw-semibold add-project"
+                                >
+                                  <i class="pentest-pnarratives"></i>
+                                  <span>Narratives</span>
+                                </a>
+                                <a
+                                  href="#"
+                                  class="btn btn-outline-primary btn-sm fw-semibold add-project"
+                                >
+                                  <i class="pentest-preport"></i>
+                                  <span>Report</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="flex-table-row">
+                      <div class="flex-table-cell more-detail">
+                        <i class="bi bi-chevron-right chevron-toggle"></i>
+                      </div>
+
+                      <div style="flex-basis: 80px" class="flex-table-cell">
+                        <div class="d-flex align-items-start">
+                          <div class="d-flex flex-column">
+                            <span class="fs-7 fw-bold text-wrap"
+                              >Cyber security</span
+                            >
+                            <span class="text-muted small">Harman</span>
+                          </div>
+                          <div>
+                            <span class="badge bg-success bg-opacity-75 ms-1"
+                              >Completed</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="flex-table-cell">PRJ-45550960</div>
+
+                      <div class="flex-table-cell">Greybox</div>
+                      <div class="flex-table-cell">
+                        <div class="d-flex flex-column">
+                          <span class="fw-bold text-success">Approved</span>
+                          <span class="small">By Himanshu Kumar Singh</span>
+                        </div>
+                      </div>
+
+                      <div class="flex-table-cell">Apr 18, 2025</div>
+                      <div class="flex-table-cell">Apr 30, 2025</div>
+
+                      <div class="flex-table-cell">
+                        <div class="">
+                          <span
+                            class="icon-downdload"
+                            style="height: 30px; padding-top: 3px"
+                          >
+                            <img src="images/approve.svg" alt="" />
+                          </span>
+                          <span
+                            class="icon-downdload"
+                            style="height: 30px; padding-top: 3px"
+                          >
+                            <img src="images/more.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-meta collapse" id="meta1">
+                      <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes:
+                      High priority
+                    </div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell more-detail">
+                      <i class="bi bi-chevron-right chevron-toggle"></i>
+                    </div>
+
+                    <div style="flex-basis: 80px" class="flex-table-cell">
+                      <div class="d-flex align-items-start">
+                        <div class="d-flex flex-column">
+                          <span class="fs-7 fw-bold text-wrap"
+                            >Harman cloud</span
+                          >
+                          <span class="text-muted small">Harman</span>
+                        </div>
+                        <div>
+                          <span class="badge bg-success bg-opacity-75 ms-1"
+                            >Completed</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">PRJ-45550960</div>
+
+                    <div class="flex-table-cell">Greybox</div>
+                    <div class="flex-table-cell">
+                      <div class="d-flex flex-column">
+                        <span class="fw-bold text-success">Approved</span>
+                        <span class="small">By Himanshu Kumar Singh</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Apr 18, 2025</div>
+                    <div class="flex-table-cell">Apr 30, 2025</div>
+
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/approve.svg" alt="" />
+                        </span>
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-meta collapse" id="meta1">
+                    <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes: High
+                    priority
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell more-detail">
+                      <i class="bi bi-chevron-right chevron-toggle"></i>
+                    </div>
+
+                    <div style="flex-basis: 80px" class="flex-table-cell">
+                      <div class="d-flex align-items-start">
+                        <div class="d-flex flex-column">
+                          <span class="fs-7 fw-bold text-wrap">Harman XYZ</span>
+                          <span class="text-muted small">Harman</span>
+                        </div>
+                        <div>
+                          <span class="badge bg-danger bg-opacity-75 ms-1"
+                            >Overrun</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">PRJ-45550960</div>
+
+                    <div class="flex-table-cell">Whitebox</div>
+                    <div class="flex-table-cell">
+                      <div class="d-flex flex-column">
+                        <span class="fw-bold text-danger">Not Approved</span>
+                        <span class="small">By Himanshu Kumar Singh</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Apr 18, 2025</div>
+                    <div class="flex-table-cell">Apr 30, 2025</div>
+
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/approve.svg" alt="" />
+                        </span>
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-meta collapse" id="meta1">
+                    <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes: High
+                    priority
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell more-detail">
+                      <i class="bi bi-chevron-right chevron-toggle"></i>
+                    </div>
+
+                    <div style="flex-basis: 80px" class="flex-table-cell">
+                      <div class="d-flex align-items-start">
+                        <div class="d-flex flex-column">
+                          <span class="fs-7 fw-bold text-wrap"
+                            >Volarize MVP</span
+                          >
+                          <span class="text-muted small">Harman</span>
+                        </div>
+                        <div>
+                          <span class="badge bg-primary bg-opacity-75 ms-1"
+                            >Ongoing</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">PRJ-45550960</div>
+
+                    <div class="flex-table-cell">Greybox</div>
+                    <div class="flex-table-cell">
+                      <div class="d-flex flex-column">
+                        <span class="fw-bold text-danger">Not Approved</span>
+                        <span class="small">By Himanshu Kumar Singh</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Apr 18, 2025</div>
+                    <div class="flex-table-cell">Apr 30, 2025</div>
+
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/approve.svg" alt="" />
+                        </span>
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-meta collapse" id="meta1">
+                    <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes: High
+                    priority
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="width: 650px"
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header p-3">
+          <h6 class="offcanvas-title" id="offcanvasRightLabel">
+            <img src="images/arrow-popup.svg" alt="" /> Add Project
+          </h6>
+
+          <img
+            class="ms-auto"
+            style="cursor: pointer"
+            src="images/popup-close.svg"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+            alt="close"
+          />
+        </div>
+
+        <div class="offcanvas-body">
+          <form class="form-popup">
+            <div class="card b-popup mb-4">
+              <div class="card-body">
+                <h5 class="fw-bold mb-3 fs-6">Project Information</h5>
+                <div class="row g-3 mb-3">
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Project Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Type here"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Project Code</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      value="PRJ-45550960"
+                      disabled
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Customer</label>
+                    <select class="form-select">
+                      <option selected disabled>Select from list</option>
+                      <!-- options -->
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Project Status</label>
+                    <select class="form-select">
+                      <option selected disabled>Select from list</option>
+                      <!-- options -->
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Start date</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="MM/DD/YYYY"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">End date</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="MM/DD/YYYY"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card b-popup mb-4">
+              <div class="card-body">
+                <h5 class="fw-bold mb-3 fs-6">Testing Parameter</h5>
+                <div class="row g-3 mb-3">
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold"
+                      >Engagement Type</label
+                    >
+                    <select class="form-select">
+                      <option selected disabled>Select from list</option>
+                      <!-- options -->
+                    </select>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label fw-semibold">Testing Level</label>
+                    <select class="form-select">
+                      <option selected disabled>Select from list</option>
+                      <!-- options -->
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label fw-semibold">Testing type</label>
+                    <div
+                      class="border rounded p-2 d-flex flex-wrap gap-2"
+                      style="min-height: 48px"
+                    >
+                      <span class="badge bg-light border text-dark px-3 py-2"
+                        >Web Application
+                        <span class="ms-1" style="cursor: pointer"
+                          >&times;</span
+                        ></span
+                      >
+                      <span class="badge bg-light border text-dark px-3 py-2"
+                        >API Assessment
+                        <span class="ms-1" style="cursor: pointer"
+                          >&times;</span
+                        ></span
+                      >
+                      <span class="badge bg-light border text-dark px-3 py-2"
+                        >Mobile Application
+                        <span class="ms-1" style="cursor: pointer"
+                          >&times;</span
+                        ></span
+                      >
+                      <span class="badge bg-light border text-dark px-3 py-2"
+                        >Bug Bounty
+                        <span class="ms-1" style="cursor: pointer"
+                          >&times;</span
+                        ></span
+                      >
+                      <span class="badge bg-light border text-dark px-3 py-2"
+                        >+3
+                        <span class="ms-1" style="cursor: pointer"
+                          >&times;</span
+                        ></span
+                      >
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label fw-semibold">Project scope</label>
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Define the project scope, targets, and any specific requirements..."
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-end gap-2">
+              <button
+                type="button"
+                class="btn text-secondary text-decoration-none btn-sm"
+              >
+                Cancel
+              </button>
+              <button type="submit" class="btn btn-primary btn-sm add-project">
+                Add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div
+        style="width: 900px"
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight2"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header p-3">
+          <h6 class="offcanvas-title" id="offcanvasRightLabel">
+            <img src="images/arrow-popup.svg" alt="" /> Harman HRMS Dashboard
+          </h6>
+
+          <img
+            class="ms-auto"
+            style="cursor: pointer"
+            src="images/popup-close.svg"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+            alt="close"
+          />
+        </div>
+
+        <div class="px-3 py-2 project-dashboard">
+          <a href="#" data="dashboard"  class="bt btn btn-sm btn-primary">
+            <i class="pentest-pdashboard"></i> Dashboard
+          </a>
+
+          <a href="#" data="findings" class="bt btn btn-sm btn-secondary">
+            <i class="pentest-pfindings"></i> Findings
+          </a>
+
+          <a href="#" data="narratives" class="bt btn btn-sm btn-secondary">
+            <i class="pentest-pnarratives"></i> Narratives
+          </a>
+        </div>
+
+        <div class="offcanvas-body p-2">
+          <div class="h-100 p-3">
+            
+            <div id="dashboard">
+
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <div class="card h-100 p-2 dashboard-in-on-border">
+                    <div
+                      class="d-flex justify-content-between align-items-center mb-2"
+                    >
+                      <span class="fw-bold">Total Findings</span>
+                    </div>
+
+                    <div class="d-flex">
+                      <div class="display-5 fw-bold">93</div>
+
+                      <div
+                        class="text-muted mb-2 p-1 d-flex flex-column justify-content-center"
+                      >
+                        <span>
+                          <span class="fw-bold fs-6 text-success"> + 37.8 </span>
+                          <span class="fs-7">this month</span>
+                        </span>
+                        <span class="fs-7 fw-bold"> Across all projects </span>
+                      </div>
+                    </div>
+
+                    <div
+                      class="text-success small fw-semibold d-flex align-items-center"
+                    >
+                      <img src="images/approved-2.svg" alt="" class="me-1" />
+                      <span> 2 Approved </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="card h-100 p-2 dashboard-in-on-border">
+                    <div class="fw-bold mb-2">Vulnerability Insights</div>
+                    <div class="d-flex align-items-center">
+                      <svg width="100" height="100" viewBox="0 0 200 200">
+                        <!-- Background circles for each arc -->
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="90"
+                          stroke="#fafafa"
+                          stroke-width="8"
+                          fill="none"
+                        ></circle>
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="70"
+                          stroke="#fafafa"
+                          stroke-width="8"
+                          fill="none"
+                        ></circle>
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="50"
+                          stroke="#fafafa"
+                          stroke-width="8"
+                          fill="none"
+                        ></circle>
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="30"
+                          stroke="#fafafa"
+                          stroke-width="8"
+                          fill="none"
+                        ></circle>
+                        <!-- Outer arc (purple) -->
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="90"
+                          stroke="#551a8b"
+                          stroke-width="8"
+                          fill="none"
+                          stroke-dasharray="565.49"
+                          stroke-dashoffset="141.37"
+                          stroke-linecap="round"
+                          transform="rotate(-90 100 100)"
+                        ></circle>
+                        <!-- Second arc (blue) -->
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="70"
+                          stroke="#4285f4"
+                          stroke-width="8"
+                          fill="none"
+                          stroke-dasharray="439.82"
+                          stroke-dashoffset="109.95"
+                          stroke-linecap="round"
+                          transform="rotate(-90 100 100)"
+                        ></circle>
+                        <!-- Third arc (green) -->
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="50"
+                          stroke="#198754"
+                          stroke-width="8"
+                          fill="none"
+                          stroke-dasharray="314.16"
+                          stroke-dashoffset="78.54"
+                          stroke-linecap="round"
+                          transform="rotate(-90 100 100)"
+                        ></circle>
+                        <!-- Inner arc (yellow) -->
+                        <circle
+                          cx="100"
+                          cy="100"
+                          r="30"
+                          stroke="#ffc107"
+                          stroke-width="8"
+                          fill="none"
+                          stroke-dasharray="188.50"
+                          stroke-dashoffset="900"
+                          stroke-linecap="round"
+                          transform="rotate(-90 100 100)"
+                        ></circle>
+                      </svg>
+
+                      <div class="ms-1 fs-7">
+                        <div class="mb-1">
+                          <span
+                            class="badge rounded-pill"
+                            style="background: #6f42c1"
+                            >&nbsp;</span
+                          >
+                          <span class="small">Open</span>
+                        </div>
+
+                        <div class="mb-1">
+                          <span
+                            class="badge rounded-pill"
+                            style="background: #0d6efd"
+                            >&nbsp;</span
+                          >
+                          <span class="small">In Progress</span>
+                        </div>
+
+                        <div class="mb-1">
+                          <span
+                            class="badge rounded-pill"
+                            style="background: #198754"
+                            >&nbsp;</span
+                          >
+                          <span class="small">Resolved</span>
+                        </div>
+
+                        <div>
+                          <span
+                            class="badge rounded-pill"
+                            style="background: #ffc107"
+                            >&nbsp;</span
+                          >
+                          <span class="small">Accepted</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="card p-3 dashboard-in-on-border">
+                    <div class="fw-bold mb-3">
+                      Severity Distribution Projectwise
+                    </div>
+                    <div class="table-responsive fs-7">
+                      <table
+                        class="table text-center align-middle mb-0"
+                        style="width: 100%"
+                      >
+                        <thead>
+                          <tr>
+                            <th class="border-0"></th>
+                            <th class="border-0 text-secondary fw-semibold">
+                              Critical
+                            </th>
+                            <th class="border-0 text-secondary fw-semibold">
+                              High
+                            </th>
+                            <th class="border-0 text-secondary fw-semibold">
+                              Medium
+                            </th>
+                            <th class="border-0 text-secondary fw-semibold">
+                              Low
+                            </th>
+                            <th class="border-0 text-secondary fw-semibold">
+                              Info.
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th class="text-secondary fw-bold border-0">
+                              Project A
+                            </th>
+                            <td class="bg-warning bg-opacity-50 fs-7">3</td>
+                            <td class="bg-warning bg-opacity-25 fs-7">1</td>
+                            <td class="bg-danger bg-opacity-75 text-white fs-7">
+                              8
+                            </td>
+                            <td class="bg-warning bg-opacity-75 fs-7">6</td>
+                            <td class="bg-warning bg-opacity-50 fs-7">2</td>
+                          </tr>
+                          <tr>
+                            <th class="text-secondary fw-bold border-0">
+                              Project B
+                            </th>
+                            <td class="bg-warning bg-opacity-10 fs-7">0</td>
+                            <td class="bg-warning bg-opacity-25 fs-7">2</td>
+                            <td class="bg-danger bg-opacity-50 text-white fs-7">
+                              5
+                            </td>
+                            <td class="bg-danger bg-opacity-75 text-white fs-7">
+                              9
+                            </td>
+                            <td class="bg-warning bg-opacity-25 fs-7">1</td>
+                          </tr>
+                          <tr>
+                            <th class="text-secondary fw-bold border-0">
+                              Project C
+                            </th>
+                            <td class="bg-warning bg-opacity-25 fs-7">1</td>
+                            <td class="bg-warning bg-opacity-50 fs-7">3</td>
+                            <td class="bg-danger bg-opacity-75 text-white fs-7">
+                              7
+                            </td>
+                            <td class="bg-danger text-white fs-7">12</td>
+                            <td class="bg-warning bg-opacity-75 fs-7">5</td>
+                          </tr>
+                          <tr>
+                            <th class="text-secondary fw-bold border-0">
+                              Project D
+                            </th>
+                            <td class="bg-warning bg-opacity-50 fs-7">2</td>
+                            <td class="bg-warning bg-opacity-75 fs-7">5</td>
+                            <td class="bg-danger text-white fs-7">10</td>
+                            <td class="bg-danger bg-opacity-75 text-white fs-7">
+                              8
+                            </td>
+                            <td class="bg-warning bg-opacity-50 fs-7">3</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12 mb-3">
+                  <div class="card h-100 p-2 dashboard-in-on-border">
+                    <div
+                      class="d-flex justify-content-between align-items-center mb-2"
+                    >
+                      <h5 class="mb-0">Service Level Agreement</h5>
+                      <button
+                        class="btn btn-outline-primary btn-sm fw-semibold"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        <span><i class="pentest-sla"></i> Manage SLA </span>
+                      </button>
+                    </div>
+
+                    <div class="card project-b h-100">
+                      <div class="card-body">
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="fw-semibold small mb-2">Priority</div>
+                            <img src="images/medium.svg" alt="" />
+                            <span class="fs-7">Medium</span>
+                          </div>
+
+                          <div class="col border-start border-end">
+                            <div class="small fw-semibold mb-2">
+                              Status update
+                            </div>
+                            <div class="fs-7">Every 7 Days</div>
+                          </div>
+
+                          <div class="col-5">
+                            <div class="small fw-semibold mb-2">
+                              Remidation Timeframes
+                            </div>
+                            <div
+                              class="d-flex small fs-7 justify-content-between"
+                            >
+                              <span>
+                                <span
+                                  class="bg-danger rounded-circle"
+                                  style="
+                                    width: 10px;
+                                    height: 10px;
+                                    display: inline-block;
+                                  "
+                                ></span>
+                                Critical - 7 Days</span
+                              >
+                              <span>
+                                <span
+                                  class="bg-warning rounded-circle"
+                                  style="
+                                    width: 10px;
+                                    height: 10px;
+                                    display: inline-block;
+                                  "
+                                ></span>
+                                High - 14 Days</span
+                              >
+                            </div>
+
+                            <div
+                              class="d-flex small fs-7 justify-content-between"
+                            >
+                              <span>
+                                <span
+                                  class="bg-primary rounded-circle"
+                                  style="
+                                    width: 10px;
+                                    height: 10px;
+                                    display: inline-block;
+                                  "
+                                ></span>
+                                Critical - 7 Days</span
+                              >
+                              <span
+                                ><span
+                                  class="bg-success rounded-circle"
+                                  style="
+                                    width: 10px;
+                                    height: 10px;
+                                    display: inline-block;
+                                  "
+                                ></span>
+                                High - 14 Days</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div id="findings" style="display: none;">
+
+               <div
+                  class="d-flex justify-content-between align-items-center mb-3"
+                >
+                  <h5 class="mb-0">Details</h5>
+                  <div>
+                    <div
+                      class="w-100 d-flex justify-content-end align-items-center gap-2"
+                    >
+                      <div class="search-p" style="display: inline-block">
+                        <div class="input-group" style="width: 260px">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <span class="ms-1 me-1 mt-1">
+                            <img src="images/search-p.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+
+                      <span class="icon-downdload">
+                        <img src="images/filter.svg" alt="" />
+                      </span>
+                      <span class="icon-downdload">
+                        <img src="images/download.svg" alt="" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+              <div class="my-1 list-exp">
+                  <div class="flex-table-header mb-3">
+                    <div class="flex-table-cell"></div>
+                    <div
+                      style="flex-basis: 80px"
+                      class="flex-table-cell sortable"
+                      data-col="1"
+                    >
+                      Title <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="2">
+                      Severity <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="3">
+                      Approval <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      CVSS Score <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      SLA Deadline<i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell sortable" data-col="4">
+                      Added on <i class="bi bi-arrow-down-up"></i>
+                    </div>
+                    <div class="flex-table-cell">Actions</div>
+                  </div>
+
+                  <div>
+                    <div class="flex-table-row">
+                      <div class="flex-table-cell more-detail">
+                        <i class="pentest-arrowdown fs-3"></i>
+                      </div>
+
+                      <div style="flex-basis: 80px" class="flex-table-cell">
+                        <div class="d-flex align-items-start">
+                          <div class="d-flex flex-column">
+                            <span class="fs-7 fw-bold">Insecure connection</span>
+                          </div>
+                          <div>
+                            <span class="badge bg-success bg-opacity-75 ms-1"
+                              >Completed</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="flex-table-cell">Medium</div>
+
+                      <div class="flex-table-cell text-danger fw-semibold">Not Approved</div>
+                      <div class="flex-table-cell">
+                        7.5
+                      </div>
+
+                      <div class="flex-table-cell">May 18, 2025</div>
+                      <div class="flex-table-cell">Apr 30, 2025</div>
+
+                      <div class="flex-table-cell" style="overflow: visible">
+                        <div class="">
+                          <span
+                            class="icon-downdload"
+                            style="height: 30px; padding-top: 3px"
+                          >
+                            <img src="images/approve.svg" alt="" />
+                          </span>
+
+                          <span
+                            class="icon-downdload dropdown"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="height: 30px; padding-top: 3px"
+                          >
+                            <img src="images/more.svg" alt="" />
+
+                            <ul
+                              class="dropdown-menu fs-7 fw-semibold project-dropdown"
+                            >
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <div class="d-flex align-items-center">
+                                    <img
+                                      src="images/edit-p.svg"
+                                      alt="Edit"
+                                    />
+                                    <span
+                                      class="ms-1"
+                                     
+                                      >Edit</span
+                                    >
+                                  </div>
+                                </a>
+                              </li>
+                             
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <div class="d-flex align-items-center">
+                                    <img
+                                      src="images/approve-p.svg"
+                                      alt="logout-icon"
+                                    />
+                                    <span class="ms-1">Approve</span>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li><hr class="dropdown-divider m-0" /></li>
+
+                              <li>
+                                <a class="dropdown-item" href="#">
+                                  <div
+                                    class="d-flex align-items-center text-danger"
+                                  >
+                                    <img
+                                      src="images/delete-p.svg"
+                                      alt="delete-icon"
+                                    />
+                                    <span class="ms-1">Delete</span>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-meta collapse" id="meta1">
+
+                      <div class="row">
+
+                        <div class="col">
+                          <div class="card project-b h-100">
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <div class="fw-semibold fs-7">Descriptions</div>
+                                <div class="text-muted small fs-7">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Morbi vestibulum nisl turpis,
+                                  at venenatis nibh faucibus vitae. Cras laoreet
+                                  scelerisque lacinia. Phasellus...
+                                </div>
+                              </div>
+                            </div>
+
+                            
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card project-b h-100">
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <div class="fw-semibold fs-7">Recommendations</div>
+                                <div class="text-muted small fs-7">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Morbi vestibulum nisl turpis,
+                                  at venenatis nibh faucibus vitae. Cras laoreet
+                                  scelerisque lacinia. Phasellus...
+                                </div>
+                              </div>
+                            </div>
+
+                            
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card project-b h-100">
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <div class="fw-semibold fs-7">OSWAP Reference</div>
+                                <div class="text-muted small fs-7">
+                                  Lorem ipsum dolor sit amet, consectetur
+                                  adipiscing elit. Morbi vestibulum nisl turpis,
+                                  at venenatis nibh faucibus vitae. Cras laoreet
+                                  scelerisque lacinia. Phasellus...
+                                </div>
+                              </div>
+                            </div>
+
+                            
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row mt-3">
+                        <div class="col">
+                          <div class="card project-b h-100">
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <div class="fw-semibold fs-7">CVSS Components</div>
+                                <div class="text-muted small fs-7">
+                                  {'A': 'N', 'C': 'H', 'I': 'N', 'S': 'U', 'AC': 'L', 'AV': 'N', 'PR': 'N', 'UI': 'N'}
+                                </div>
+                              </div>
+                            </div>
+
+                            
+                          </div>
+                        </div>
+
+                        <div class="col">
+                          <div class="card project-b h-100">
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <div class="fw-semibold fs-7">Screenshots</div>
+                                <div class="text-muted small fs-7">
+                                  <img class="img-fluid" src="images/screen.png" alt="">
+                                </div>
+                              </div>
+                            </div>
+
+                            
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="flex-table-row">
+                      <div class="flex-table-cell more-detail">
+                        <i class="bi bi-chevron-right chevron-toggle"></i>
+                      </div>
+
+                      <div style="flex-basis: 80px" class="flex-table-cell">
+                        <div class="d-flex align-items-start">
+                          <div class="d-flex flex-column">
+                            <span class="fs-7 fw-bold text-wrap"
+                              >Cyber security</span
+                            >
+                            <span class="text-muted small">Harman</span>
+                          </div>
+                          <div>
+                            <span class="badge bg-success bg-opacity-75 ms-1"
+                              >Completed</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="flex-table-cell">PRJ-45550960</div>
+
+                      <div class="flex-table-cell">Greybox</div>
+                      <div class="flex-table-cell">
+                        <div class="d-flex flex-column">
+                          <span class="fw-bold text-success">Approved</span>
+                          <span class="small">By Himanshu Kumar Singh</span>
+                        </div>
+                      </div>
+
+                      <div class="flex-table-cell">Apr 18, 2025</div>
+                      <div class="flex-table-cell">Apr 30, 2025</div>
+
+                      <div class="flex-table-cell">
+                        <div class="">
+                          <span
+                            class="icon-downdload"
+                            style="height: 30px; padding-top: 3px"
+                          >
+                            <img src="images/approve.svg" alt="" />
+                          </span>
+                          <span
+                            class="icon-downdload"
+                            style="height: 30px; padding-top: 3px"
+                          >
+                            <img src="images/more.svg" alt="" />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-meta collapse" id="meta1">
+                      <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes:
+                      High priority
+                    </div>
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell more-detail">
+                      <i class="bi bi-chevron-right chevron-toggle"></i>
+                    </div>
+
+                    <div style="flex-basis: 80px" class="flex-table-cell">
+                      <div class="d-flex align-items-start">
+                        <div class="d-flex flex-column">
+                          <span class="fs-7 fw-bold text-wrap"
+                            >Harman cloud</span
+                          >
+                          <span class="text-muted small">Harman</span>
+                        </div>
+                        <div>
+                          <span class="badge bg-success bg-opacity-75 ms-1"
+                            >Completed</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">PRJ-45550960</div>
+
+                    <div class="flex-table-cell">Greybox</div>
+                    <div class="flex-table-cell">
+                      <div class="d-flex flex-column">
+                        <span class="fw-bold text-success">Approved</span>
+                        <span class="small">By Himanshu Kumar Singh</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Apr 18, 2025</div>
+                    <div class="flex-table-cell">Apr 30, 2025</div>
+
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/approve.svg" alt="" />
+                        </span>
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-meta collapse" id="meta1">
+                    <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes: High
+                    priority
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell more-detail">
+                      <i class="bi bi-chevron-right chevron-toggle"></i>
+                    </div>
+
+                    <div style="flex-basis: 80px" class="flex-table-cell">
+                      <div class="d-flex align-items-start">
+                        <div class="d-flex flex-column">
+                          <span class="fs-7 fw-bold text-wrap">Harman XYZ</span>
+                          <span class="text-muted small">Harman</span>
+                        </div>
+                        <div>
+                          <span class="badge bg-danger bg-opacity-75 ms-1"
+                            >Overrun</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">PRJ-45550960</div>
+
+                    <div class="flex-table-cell">Whitebox</div>
+                    <div class="flex-table-cell">
+                      <div class="d-flex flex-column">
+                        <span class="fw-bold text-danger">Not Approved</span>
+                        <span class="small">By Himanshu Kumar Singh</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Apr 18, 2025</div>
+                    <div class="flex-table-cell">Apr 30, 2025</div>
+
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/approve.svg" alt="" />
+                        </span>
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-meta collapse" id="meta1">
+                    <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes: High
+                    priority
+                  </div>
+
+                  <div class="flex-table-row">
+                    <div class="flex-table-cell more-detail">
+                      <i class="bi bi-chevron-right chevron-toggle"></i>
+                    </div>
+
+                    <div style="flex-basis: 80px" class="flex-table-cell">
+                      <div class="d-flex align-items-start">
+                        <div class="d-flex flex-column">
+                          <span class="fs-7 fw-bold text-wrap"
+                            >Volarize MVP</span
+                          >
+                          <span class="text-muted small">Harman</span>
+                        </div>
+                        <div>
+                          <span class="badge bg-primary bg-opacity-75 ms-1"
+                            >Ongoing</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">PRJ-45550960</div>
+
+                    <div class="flex-table-cell">Greybox</div>
+                    <div class="flex-table-cell">
+                      <div class="d-flex flex-column">
+                        <span class="fw-bold text-danger">Not Approved</span>
+                        <span class="small">By Himanshu Kumar Singh</span>
+                      </div>
+                    </div>
+
+                    <div class="flex-table-cell">Apr 18, 2025</div>
+                    <div class="flex-table-cell">Apr 30, 2025</div>
+
+                    <div class="flex-table-cell">
+                      <div class="">
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/approve.svg" alt="" />
+                        </span>
+                        <span
+                          class="icon-downdload"
+                          style="height: 30px; padding-top: 3px"
+                        >
+                          <img src="images/more.svg" alt="" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex-table-meta collapse" id="meta1">
+                    <strong>Meta:</strong> Budget: $10,000, Team: 5, Notes: High
+                    priority
+                  </div>
+
+              </div>
+
+            </div>
+
+            <div id="narratives" style="display: none;">
+
+                <div class="d-flex align-items-center flex-column justify-content-center">
+                  <img src="images/no-search-results.svg" alt="">
+                  <span class="fw-semibold">No Narratives found yet</span>
+
+                  <div class="mt-4">
+                    <button class="btn btn-primary btn-sm">+ Create Narrative</button> or <button class="btn btn-outline-primary btn-sm"> Get Recommendations</button>
+                  </div>
+
+                </div>
+
+                
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" style="max-width: 950px">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                SLA Agreement
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="modal-body fs-7">
+              <div id="model">
+                <div class="container my-0">
+                  <div class="row g-3 mb-3">
+                    <!-- Top summary cards -->
+                    <div class="col-md-3">
+                      <div class="card h-100 p-3 text-center">
+                        <div class="small text-muted mb-1">
+                          Project priority
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-2"
+                        >
+                          <img
+                            src="images/medium.svg"
+                            alt=""
+                            style="height: 24px"
+                          />
+                          <span class="fw-semibold">Medium</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card h-100 p-3 text-center">
+                        <div class="small text-muted mb-1">
+                          Next status update
+                        </div>
+                        <div class="fw-semibold fs-5 text-warning">
+                          May 09, 2025
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card h-100 p-3 text-center">
+                        <div class="small text-muted mb-1">
+                          Report delivery deadline
+                        </div>
+                        <div class="fw-semibold fs-5 text-primary">
+                          Apr 30, 2025
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card h-100 p-3 text-center">
+                        <div class="small text-muted mb-1">At risk items</div>
+                        <div class="fw-semibold fs-5 text-danger">
+                          01 <i class="bi bi-exclamation-triangle"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row g-3">
+                    <!-- SLA Settings -->
+                    <div class="col-md-6">
+                      <div class="card p-3 h-100">
+                        <div class="fw-semibold mb-3">SLA settings</div>
+                        <form>
+                          <div class="mb-3">
+                            <label class="form-label">Project priority</label>
+                            <select class="form-select">
+                              <option>Medium</option>
+                              <option>High</option>
+                              <option>Low</option>
+                            </select>
+                          </div>
+                          <div class="row g-2 mb-3">
+                            <div class="col">
+                              <label class="form-label"
+                                >Initial Response (hours)</label
+                              >
+                              <input
+                                type="number"
+                                class="form-control"
+                                value="24"
+                              />
+                            </div>
+                            <div class="col">
+                              <label class="form-label"
+                                >Status Update Frequency (days)</label
+                              >
+                              <input
+                                type="number"
+                                class="form-control"
+                                value="7"
+                              />
+                            </div>
+                          </div>
+                          <div class="mb-2 small text-muted">
+                            How many hours until first status update after
+                            project starts<br />
+                            How often (in days) regular status reports should be
+                            sent
+                          </div>
+                          <div class="fw-semibold mb-2">
+                            Remediation Timeframes
+                          </div>
+                          <div class="row g-2 mb-2">
+                            <div class="col">
+                              <label class="form-label"
+                                >Critical Findings (days)</label
+                              >
+                              <input
+                                type="number"
+                                class="form-control"
+                                value="7"
+                              />
+                            </div>
+                            <div class="col">
+                              <label class="form-label"
+                                >High Findings (days)</label
+                              >
+                              <input
+                                type="number"
+                                class="form-control"
+                                value="14"
+                              />
+                            </div>
+                          </div>
+                          <div class="row g-2 mb-2">
+                            <div class="col">
+                              <label class="form-label"
+                                >Medium Findings (days)</label
+                              >
+                              <input
+                                type="number"
+                                class="form-control"
+                                value="30"
+                              />
+                            </div>
+                            <div class="col">
+                              <label class="form-label"
+                                >Low Findings (days)</label
+                              >
+                              <input
+                                type="number"
+                                class="form-control"
+                                value="60"
+                              />
+                            </div>
+                          </div>
+                          <div class="mb-3">
+                            <label class="form-label"
+                              >Report Delivery (days after completion)</label
+                            >
+                            <input
+                              type="number"
+                              class="form-control"
+                              value="7"
+                            />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+
+                    <!-- SLA Status -->
+                    <div class="col-md-6">
+                      <div class="card p-3 h-100">
+                        <div class="fw-semibold mb-3">SLA status</div>
+                        <div class="mb-3">
+                          <div class="alert alert-danger py-2 mb-2">
+                            <div class="fw-semibold">SLA Breaches (1)</div>
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <div>
+                                Findings
+                                <a href="#" class="text-decoration-underline"
+                                  >SQL injection</a
+                                >
+                                <span class="badge bg-danger ms-2"
+                                  >Critical</span
+                                >
+                              </div>
+                              <div>
+                                <span class="me-2"
+                                  >Deadline <b>May 02, 2025</b></span
+                                >
+                                <span class="text-danger">3 days overdue</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="alert alert-warning py-2 mb-2">
+                            <div class="fw-semibold">At Risk Items (1)</div>
+                            <div
+                              class="d-flex justify-content-between align-items-center"
+                            >
+                              <div>
+                                Findings
+                                <a href="#" class="text-decoration-underline"
+                                  >Insecure connection</a
+                                >
+                                <span class="badge bg-warning ms-2">High</span>
+                              </div>
+                              <div>
+                                <span class="me-2"
+                                  >Deadline <b>May 09, 2025</b></span
+                                >
+                                <span class="text-danger">4 days</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="fw-semibold mb-2">
+                          Remediation Timeframes
+                        </div>
+                        <div class="table-responsive">
+                          <table class="table table-sm align-middle mb-0">
+                            <thead>
+                              <tr>
+                                <th>Type</th>
+                                <th>Timeframe</th>
+                                <th>Deadline</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Initial Response</td>
+                                <td>24 hours</td>
+                                <td>Apr 18, 2025 + 24 hours</td>
+                              </tr>
+                              <tr>
+                                <td>Status Updates</td>
+                                <td>Every 7 days</td>
+                                <td>Next: May 09, 2025</td>
+                              </tr>
+                              <tr>
+                                <td>Critical Findings</td>
+                                <td>7 days</td>
+                                <td>May 02, 2025</td>
+                              </tr>
+                              <tr>
+                                <td>High Findings</td>
+                                <td>14 days</td>
+                                <td>May 09, 2025</td>
+                              </tr>
+                              <tr>
+                                <td>Medium Findings</td>
+                                <td>30 days</td>
+                                <td>May 30, 2025</td>
+                              </tr>
+                              <tr>
+                                <td>Low Findings</td>
+                                <td>60 days</td>
+                                <td>Jun 28, 2025</td>
+                              </tr>
+                              <tr>
+                                <td>Report Delivery</td>
+                                <td>7 days</td>
+                                <td>Jul 07, 2025</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-sm"
+                data-bs-dismiss="modal"
+              >
+                Cancel
+              </button>
+              <button type="button" class="btn btn-sm btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="tooltip.js"></script>
+
+    <script>
+
+      document.querySelectorAll('.bt').forEach((el) => {
+        
+        el.addEventListener('click', (event) => {
+          
+          document.querySelectorAll('a[data]').forEach((m) => {
+            m.classList.remove('btn-primary');
+            m.classList.add('btn-secondary');
+          });
+
+          const d = el.getAttribute('data');
+          console.log("d", el.classList);
+
+          if (d == 'dashboard') {
+            document.getElementById('dashboard').style.display = "block";
+            document.getElementById('findings').style.display = "none";
+            document.getElementById('narratives').style.display = "none";
+            el.classList.add('btn-primary');
+            el.classList.remove('btn-secondary');
+          } 
+
+          if (d == 'findings') {
+            document.getElementById('findings').style.display = "block"; 
+            document.getElementById('narratives').style.display = "none";
+            document.getElementById('dashboard').style.display = "none";
+            el.classList.add('btn-primary');
+            el.classList.remove('btn-secondary');
+          }
+
+          if (d == 'narratives') {
+            document.getElementById('narratives').style.display = "block"; 
+            document.getElementById('dashboard').style.display = "none";
+            document.getElementById('findings').style.display = "none"; 
+            el.classList.add('btn-primary');
+            el.classList.remove('btn-secondary');
+          }
+
+        });
+
+      });
+
+    </script>
+
+    <script>
+      // Sorting feature for flex-table
+      document
+        .querySelectorAll(".flex-table-header .sortable")
+        .forEach((header) => {
+          header.style.cursor = "pointer";
+          header.addEventListener("click", function () {
+            const colIndex = parseInt(header.getAttribute("data-col"));
+            const container = header.closest(".container");
+            const rows = Array.from(
+              container.querySelectorAll(".flex-table-row")
+            );
+            const metas = Array.from(
+              container.querySelectorAll(".flex-table-meta")
+            );
+            const isAsc = !header.classList.contains("sorted-asc");
+
+            // Remove sort classes from all headers
+            container
+              .querySelectorAll(".flex-table-header .sortable")
+              .forEach((h) => {
+                h.classList.remove("sorted-asc", "sorted-desc");
+              });
+            header.classList.add(isAsc ? "sorted-asc" : "sorted-desc");
+
+            // Pair rows with their meta
+            const pairs = rows.map((row, i) => [row, metas[i]]);
+            pairs.sort((a, b) => {
+              const aText = a[0].children[colIndex].innerText.trim();
+              const bText = b[0].children[colIndex].innerText.trim();
+              if (!isNaN(Date.parse(aText)) && !isNaN(Date.parse(bText))) {
+                // Date sort
+                return isAsc
+                  ? new Date(aText) - new Date(bText)
+                  : new Date(bText) - new Date(aText);
+              }
+              return isAsc
+                ? aText.localeCompare(bText, undefined, { numeric: true })
+                : bText.localeCompare(aText, undefined, { numeric: true });
+            });
+
+            // Re-append in sorted order
+            pairs.forEach((pair) => {
+              container.appendChild(pair[0]);
+              container.appendChild(pair[1]);
+            });
+          });
+        });
+    </script>
+
+    <script>
+      document.querySelectorAll(".more-detail").forEach((child) => {
+        child.addEventListener("click", function () {
+          // parent node
+
+          const parent = child.parentElement;
+
+          const topParent = parent.parentElement;
+
+          // parent's next sibling
+          const meta = parent.nextElementSibling;
+          if (meta.style.display === "block") {
+            meta.style.display = "none";
+
+            child.querySelector("i").classList.remove("pentest-arrowup");
+            child.querySelector("i").classList.add("pentest-arrowdown");
+
+            topParent.style.border = "none";
+            topParent.style.borderRadius = "0px";
+            topParent.style.marginBottom = "0px";
+          } else {
+            meta.style.display = "block";
+
+            child.querySelector("i").classList.remove("pentest-arrowdown");
+            child.querySelector("i").classList.add("pentest-arrowup");
+
+            topParent.style.border = "1px solid #0073ae";
+            topParent.style.borderRadius = "8px";
+            topParent.style.marginBottom = "10px";
+          }
+        });
+      });
+    </script>
+
+  </body>
+</html>

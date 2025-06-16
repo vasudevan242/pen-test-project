@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>customers</title>
+    <link rel="stylesheet" href="fonts/pentest.css" />
+    <link rel="stylesheet" href="style.css?ver=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid justify-content-between">
+          <div class="d-flex justify-content-start">
+            <a class="navbar-brand" href="#">
+              <img id="logo" src="images/logo.svg" alt="Pentest" />
+            </a>
+
+            <a class="navbar-brand" href="#" style="margin-right: 25px">
+              <img id="sidebar-bar" src="images/sidebar.svg" alt="" />
+            </a>
+
+            <form class="d-flex" role="search">
+              <div class="input-group search-bar">
+                <span class="search-icon">
+                  <img src="images/searchicon.svg" alt="" />
+                </span>
+
+                <input
+                  type="text"
+                  class="form-control search-input"
+                  placeholder="Search for anything with AI..."
+                  aria-label="Example text with two button addons"
+                />
+
+                <span class="search-filter-icon">
+                  <img src="images/filtericon.svg" alt="" />
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <ul class="navbar-nav header-top align-items-center gap-2">
+            <li>
+              <a
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                data-bs-title="Help"
+                class="text-decoration-none"
+                aria-current="page"
+                href="#"
+              >
+                <i class="pentest-Buttonblueprint fs-1 top-bar-icon"></i>
+              </a>
+            </li>
+
+            <li class="me-2" style="position: relative">
+              <div class="topbar-border">
+                <a
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  data-bs-title="Notifications"
+                  class="text-decoration-none"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="pentest-Icon_36x36 fs-1 top-bar-icon"></i>
+                </a>
+              </div>
+            </li>
+
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+                aria-expanded="false"
+              >
+                <div class="d-flex">
+                  <span class="d-flex flex-column text-end">
+                    <span class="my-0 fw-bold">Paraveer singh</span>
+                    <span class="my-0 text-sm">Security analyst</span>
+                  </span>
+
+                  <span class="account-user-avatar">
+                    <img
+                      src="images/profile.png"
+                      alt="user-image"
+                      width="32"
+                      height="32"
+                    />
+                  </span>
+
+                  <span>
+                    <img
+                      src="images/Expand_right.svg"
+                      alt="dropdown-arrow"
+                      width="16"
+                      height="16"
+                    />
+                  </span>
+                </div>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li class="d-flex flex-column align-items-start">
+                  <span class="my-0 fw-bold">Paraveer singh</span>
+                  <span class="my-0 text-sm">Paraveersingh@harman.com</span>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/profile-setting.svg" alt="logout-icon" />
+                      <span class="ms-2">Profile</span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <img src="images/settings.svg" alt="logout-icon" />
+                      <span class="ms-2">Settings</span>
+                    </div>
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex align-items-center text-danger">
+                      <img src="images/signout.svg" alt="logout-icon" />
+                      <span class="ms-2">Sign out</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="sidebar bg-light position-fixed">
+        <div class="container mt-2">
+          <ul class="nav flex-column sidebar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <div>
+                  <i class="pentest-dashb-white"></i>
+                  <span>Dashboard</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-analytics"></i>
+                  <span>Analytics</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">
+                <div>
+                  <i class="pentest-projects"></i>
+                  <span>Projects</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="customers.html">
+                <i class="pentest-customers"></i>
+                <span>Customers</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="users.html">
+                <div>
+                  <i class="pentest-users"></i>
+                  <span>Users</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="vulnerbility.html">
+                <div>
+                  <i class="pentest-vulnerbility"></i>
+                  <span>Vulnerability DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-narrative"></i>
+                  <span>Narrative DB</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="calendar.html">
+                <div>
+                  <i class="pentest-calendar"></i>
+                  <span>Schedule</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="teams.html">
+                <div>
+                  <i class="pentest-teams"></i>
+                  <span>Teams</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-sidebar-seetings"></i>
+                  <span>Settings</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-help"></i>
+                  <span>Help</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <div>
+                  <i class="pentest-about"></i>
+                  <span>About</span>
+                </div>
+              </a>
+            </li>
+
+            <li><hr class="border border-grey border-1 opacity-50" /></li>
+
+            <li class="d-flex flex-column align-items-start" id="footer-logo">
+              <img class="me-2" src="images/footer-logo.svg" alt="" />
+              <span class="text-muted" style="font-size: 14px; color: #808284"
+                >Version 1.0</span
+              >
+
+              <span class="text-muted mt-2 mb-2" style="font-size: 12px"
+                >&copy; 2025 Harman International</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="container-fluid">
+          <div class="d-flex mb-3">
+            <h5>Project schedule</h5>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="card card-view p-3 mb-4">
+                <div id="calendar-root"></div>
+              </div>
+
+              <style>
+                .calendar-event {
+                  border-radius: 6px;
+                  padding: 4px 6px;
+                  margin-bottom: 4px;
+                  font-size: 0.85rem;
+                }
+                .calendar-event-ongoing {
+                  background: #e6f4ea;
+                  border-left: 2px solid #198754;
+                }
+                .calendar-event-completed {
+                  background: #e7f1fa;
+                  border-left: 2px solid #0d6efd;
+                }
+                .calendar-event-overrun {
+                  background: #fbeaea;
+                  border-left: 2px solid #dc3545;
+                }
+                .calendar-legend-dot {
+                  display: inline-block;
+                  width: 12px;
+                  height: 12px;
+                  border-radius: 50%;
+                  vertical-align: middle;
+                  margin-right: 4px;
+                }
+                .calendar-table th,
+                .calendar-table td {
+                  vertical-align: top;
+                  min-width: 110px;
+                  height: 40px;
+                  background: #fff;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="tooltip.js"></script>
+
+    <script>
+      const events = [
+        // Example events
+        {
+          title: "PRJ-A2873C42: HRMS",
+          start: "2025-06-01",
+          end: "2025-06-10",
+          status: "completed",
+        },
+        {
+          title: "PRJ-A70CEAE9: HRMS",
+          start: "2025-04-23",
+          end: "2025-05-10",
+          status: "overrun",
+        },
+        {
+          title: "PRJ-A70CEAE9: HRMS",
+          start: "2025-04-23",
+          end: "2025-05-02",
+          status: "ongoing",
+        },
+        // Add more events as needed
+      ];
+
+      const statusClass = {
+        ongoing: "calendar-event-ongoing",
+        completed: "calendar-event-completed",
+        overrun: "calendar-event-overrun",
+      };
+
+      function getMonthDays(year, month) {
+        return new Date(year, month + 1, 0).getDate();
+      }
+
+      function getFirstDay(year, month) {
+        return new Date(year, month, 1).getDay();
+      }
+
+      function formatDate(date) {
+        return date.toISOString().slice(0, 10);
+      }
+
+      function isEventOnDay(event, y, m, d) {
+        const dayStr = `${y}-${String(m + 1).padStart(2, "0")}-${String(
+          d
+        ).padStart(2, "0")}`;
+        return event.start <= dayStr && event.end >= dayStr;
+      }
+
+      function renderCalendar(year, month) {
+        const daysInMonth = getMonthDays(year, month);
+        const firstDay = getFirstDay(year, month);
+        let html = `
+    <div class="d-flex justify-content-between align-items-center mb-2">
+      <div>
+        <span class="fw-semibold fs-5" id="calendar-month-label">${new Date(
+          year,
+          month
+        ).toLocaleString("default", { month: "long" })} ${year}</span>
+
+        <button class="btn btn-outline-secondary btn-sm" id="prev-month"><i class="bi bi-chevron-left"></i></button>
+        <button class="btn btn-outline-secondary btn-sm ms-2" id="next-month"><i class="bi bi-chevron-right"></i></button>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <span class="me-2">Filter by:</span>
+        <select class="form-select form-select-sm" style="width: 150px;">
+          <option>All customers</option>
+        </select>
+        <select class="form-select form-select-sm" style="width: 150px;">
+          <option>All statuses</option>
+        </select>
+      </div>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered calendar-table mb-0" style="min-width: 800px;">
+        <thead>
+          <tr class="text-center align-middle">
+            <th class="bg-light">Sunday</th>
+            <th class="bg-light">Monday</th>
+            <th class="bg-light">Tuesday</th>
+            <th class="bg-light">Wednesday</th>
+            <th class="bg-light">Thursday</th>
+            <th class="bg-light">Friday</th>
+            <th class="bg-light">Saturday</th>
+          </tr>
+        </thead>
+        <tbody>
+  `;
+
+        let day = 1;
+        for (let week = 0; week < 6; week++) {
+          html += "<tr style='height: 100px;'>";
+          for (let dow = 0; dow < 7; dow++) {
+            if ((week === 0 && dow < firstDay) || day > daysInMonth) {
+              html += "<td></td>";
+            } else {
+              html += `<td><div class="small text-muted">${day}</div>`;
+              // Render events for this day
+              events.forEach((ev) => {
+                if (isEventOnDay(ev, year, month, day)) {
+                  html += `
+              <div class="calendar-event ${statusClass[ev.status] || ""}">
+                <div class="small fw-bold">${ev.title}</div>
+                <div class="small text-muted">${ev.start} - ${ev.end}</div>
+              </div>
+            `;
+                }
+              });
+              html += "</td>";
+              day++;
+            }
+          }
+          html += "</tr>";
+          if (day > daysInMonth) break;
+        }
+        html += `
+        </tbody>
+      </table>
+    </div>
+    <div class="d-flex justify-content-between align-items-center mt-2">
+      <div class="small">
+        <span class="me-3"><span class="calendar-legend-dot bg-success"></span> Ongoing</span>
+        <span class="me-3"><span class="calendar-legend-dot bg-primary"></span> Completed</span>
+        <span class="me-3"><span class="calendar-legend-dot bg-danger"></span> Overrun</span>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <span class="me-1">Jump to:</span>
+        <select class="form-select form-select-sm" id="jump-year" style="width: 90px;">
+          ${[2024, 2025, 2026]
+            .map((y) => `<option${y === year ? " selected" : ""}>${y}</option>`)
+            .join("")}
+        </select>
+        <select class="form-select form-select-sm" id="jump-month" style="width: 90px;">
+          ${Array.from(
+            { length: 12 },
+            (_, i) =>
+              `<option value="${i}"${i === month ? " selected" : ""}>${new Date(
+                0,
+                i
+              ).toLocaleString("default", { month: "short" })}</option>`
+          ).join("")}
+        </select>
+      </div>
+    </div>
+  `;
+        document.getElementById("calendar-root").innerHTML = html;
+
+        // Navigation
+        document.getElementById("prev-month").onclick = () => {
+          let m = month - 1,
+            y = year;
+          if (m < 0) {
+            m = 11;
+            y--;
+          }
+          renderCalendar(y, m);
+        };
+        document.getElementById("next-month").onclick = () => {
+          let m = month + 1,
+            y = year;
+          if (m > 11) {
+            m = 0;
+            y++;
+          }
+          renderCalendar(y, m);
+        };
+        document.getElementById("jump-year").onchange = function () {
+          renderCalendar(
+            Number(this.value),
+            Number(document.getElementById("jump-month").value)
+          );
+        };
+        document.getElementById("jump-month").onchange = function () {
+          renderCalendar(
+            Number(document.getElementById("jump-year").value),
+            Number(this.value)
+          );
+        };
+      }
+
+      // Initial render
+      const today = new Date();
+      renderCalendar(today.getFullYear(), today.getMonth());
+    </script>
+  </body>
+</html>
