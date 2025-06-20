@@ -11,14 +11,14 @@
             document.getElementById("logo").setAttribute("src", "images/logo.svg");
 
             document.querySelectorAll(".sidebar").forEach((link) => {
-              link.style.width = "200px";
+              link.style.width = "220px";
               document.querySelectorAll(".main-content").forEach((text) => {
-                text.style.marginLeft = "200px";
+                text.style.marginLeft = "220px";
               });
             });
 
             document.querySelectorAll(".sidebar").forEach((link) => {
-              link.style.width = "200px";
+              link.style.width = "220px";
 
               const children = link.querySelector(".sidebar-nav").children;
 
@@ -30,7 +30,7 @@
               });
 
               document.querySelectorAll(".main-content").forEach((text) => {
-                text.style.marginLeft = "200px";
+                text.style.marginLeft = "220px";
               });
 
               document.getElementById("footer-logo").removeAttribute("style");
@@ -91,4 +91,16 @@
           });
 
         }
+    });
+
+    // Save scroll position
+    document.querySelector('.sidebar').addEventListener('scroll', function() {
+      localStorage.setItem('sidebarScroll', this.scrollTop);
+    });
+
+    // Restore scroll position on load
+    window.addEventListener('DOMContentLoaded', function() {
+      const sidebar = document.querySelector('.sidebar');
+      const scroll = localStorage.getItem('sidebarScroll');
+      if (scroll !== null) sidebar.scrollTop = scroll;
     });

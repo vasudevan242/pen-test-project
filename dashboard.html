@@ -229,7 +229,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#notification" href="#">
                 <div>
                   <i class="pentest-help"></i>
                   <span>Help</span>
@@ -1599,6 +1599,37 @@
                   <img src="images/about-view.svg" alt="">
 
                 </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="notification" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-sm" style="max-width: 375px;">
+          <div class="modal-content" style="z-index: -10;">
+            <button  type="button" class="btn-close buttton-close" data-bs-dismiss="modal" aria-label="Close" style="z-index: 100;"></button>
+            <div class="modal-body pt-1 p-3">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-center">
+                    <div class="position-relative mb-0" style="min-height: 60px;">
+                      <div class="rounded-circle bg-success bg-opacity-10 position-absolute top-50 start-50 translate-middle" style="width: 60px; height: 60px;"></div>
+                      <div class="rounded-circle bg-success bg-opacity-25 position-absolute top-50 start-50 translate-middle" style="width: 40px; height: 40px;"></div>
+                      <div class="rounded-circle bg-success position-absolute top-50 start-50 translate-middle" style="width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24">
+                          <path stroke="#d1e7dd" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M7 13l3 3 7-7"/>
+                        </svg>
+                      </div>
+                      <img src="images/back-img.gif" class="gif-position" alt="">
+                    </div>
+                    <h4 class="text-success fw-semibold">Success</h4>
+                    <p>Project has been approved successfully.</p>
+                  </div>
+
+                </div>
+
               </div>
             </div>
             

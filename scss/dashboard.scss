@@ -121,26 +121,37 @@ nav {
 }
 
 .sidebar {
-  width: 200px;
+  width: 220px;
   height: calc(100vh - 76px);
   top: 76px;
   left: 0;
   z-index: 1030;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    // display: none;
+    // visibility: hidden !important;
+    // width: 5px;
+    // height: 5px;
+
+    // background-color: #000; /* or add it to the track */
+  }
   &:hover {
-    overflow-y: auto;
+    &::-webkit-scrollbar {
+      // width: 5px;
+      // height: 5px; 
+      // visibility: visible !important;
+      //  display: block !important;
+    }
   }
 }
 
 .main-content {
-  margin-left: 200px;
+  margin-left: 220px;
   padding: 10px;
   height: 100vh;
   top:76px;
   position: relative;
 }
-
-
-
 
 
 // Dashboard styles
@@ -249,4 +260,23 @@ nav {
       background-color: #F7630C;
       color: #ffffff;
     }
+}
+
+.buttton-close {
+  left: 325px;
+  position: relative;
+  top: 20px;
+}
+
+.m {
+  background-image: url("../images/back-img.gif");
+}
+
+.gif-position {
+    top: -20px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 95px;
+    z-index: -5;
 }
